@@ -52,7 +52,7 @@ ninja.data = [
       {%- endif -%}
     {%- endif -%}
   {%- endfor -%}
-  {%- for post in site.posts -%}
+/*   {%- for post in site.posts -%}
     {
       {%- assign title = post.title | escape | strip -%}
       id: "post-{{ title | slugify }}",
@@ -75,8 +75,8 @@ ninja.data = [
         {% endif %}
       },
     },
-  {%- endfor -%}
-  {%- for collection in site.collections -%}
+  {%- endfor -%} */
+/*   {%- for collection in site.collections -%}
     {%- if collection.label != 'posts' -%}
       {%- for item in collection.docs -%}
         {
@@ -97,8 +97,8 @@ ninja.data = [
         },
       {%- endfor -%}
     {%- endif -%}
-  {%- endfor -%}
-  {%- if site.socials_in_search -%}
+  {%- endfor -%} */
+ /*  {%- if site.socials_in_search -%}
     {%- for social in site.data.socials -%}
       {%- case social[0] -%}
         {%- when "acm_id" -%}
@@ -294,7 +294,7 @@ ninja.data = [
         },
       },
     {%- endfor -%}
-  {%- endif -%}
+  {%- endif -%} */
   {%- if site.enable_darkmode -%}
     {
       id: 'light-theme',
