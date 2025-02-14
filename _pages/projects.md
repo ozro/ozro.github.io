@@ -9,12 +9,14 @@ display_categories: [work, fun]
 horizontal: false
 ---
 
+{% include proj_search.liquid %}
+
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
+  <a id="{{ category }}" href=".#{{ category }}" class="project">
     <h2 class="category">{{ category }}</h2>
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
@@ -22,14 +24,14 @@ horizontal: false
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
+    <div class="row row-cols-1 row-cols-md-2 project">
     {% for project in sorted_projects %}
       {% include projects_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
+  <div class="row row-cols-1 row-cols-md-3 project">
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}
@@ -47,15 +49,15 @@ horizontal: false
 
 {% if page.horizontal %}
 
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
+  <div class="projects">
+    <div class="row row-cols-1 row-cols-md-2 project">
     {% for project in sorted_projects %}
       {% include projects_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
+  <div class="row row-cols-1 row-cols-md-3 project">
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}

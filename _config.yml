@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+first_name: Oliver
+middle_name: Z.
+last_name: Zhang
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -53,6 +53,7 @@ footer_fixed: true
 search_enabled: true
 socials_in_search: true
 bib_search: true
+proj_search: true
 
 # Dimensions
 max_width: 930px
