@@ -1,0 +1,32 @@
+<div style="position:relative">
+<span class="cv-download-icons">
+{% if page.cv_pdf %}
+    <a
+    {% if page.cv_pdf contains '://' %}
+        href="{{ page.cv_pdf }}"
+    {% else %}
+        href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
+    {% endif %}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="float-right"
+    >
+    <i class="fa-solid fa-file-arrow-down"></i>
+    </a>
+{% endif %}
+{% if page.resume_pdf %}
+    <a
+    {% if page.resume_pdf contains '://' %}
+        href="{{ page.resume_pdf }}"
+    {% else %}
+        href="{{ page.resume_pdf | prepend: 'assets/pdf/' | relative_url }}"
+    {% endif %}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="float-right"
+    >
+    Resume <i class="fa-solid fa-file-arrow-down"></i>
+    </a>
+{% endif %}
+</span>
+</div>
