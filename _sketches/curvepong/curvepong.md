@@ -9,7 +9,7 @@ giscus_comments: true
 ---
 
 <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/p5.capture@1.4.1/dist/p5.capture.umd.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/p5.capture@1.4.1/dist/p5.capture.umd.min.js"></script> -->
 <script type="text/javascript" src="/_sketches/curvepong/curvepong_code.js"></script>
 
 <div id="sketch-holder"></div>
