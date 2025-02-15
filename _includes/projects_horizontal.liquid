@@ -28,6 +28,11 @@
               {% endif %}
             </div>
           </div>
+          <div class="card-footer">
+            {% for tag in project.tags %}
+            <span class="badge badge-theme">{{ tag }}</span>
+            {% endfor %}
+          </div>
         </div>
       </div>
     </div>
