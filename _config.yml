@@ -152,9 +152,11 @@ collections:
     permalink: /:collection/:title/
   projects:
     output: true
+    sort_by: importance
     permalink: /:collection/:title/
   sketches:
     output: true
+    sort_by: importance
     permalink: /:collection/:title/
 
 # -----------------------------------------------------------------------------

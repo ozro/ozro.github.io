@@ -27,17 +27,16 @@ horizontal: false
       <h2 class="category">{{ category }}</h2>
     </a>
     {% assign categorized_sketches = site.sketches | where: "category", category %}
-    {% assign sorted_sketches = categorized_sketches | sort: "importance" %}
     <!-- Generate cards for each sketch -->
     {% if page.horizontal %}
       <div class="row row-cols-1 row-cols-md-2 card-container">
-        {% for sketch in sorted_sketches %}
+        {% for sketch in categorized_sketches %}
           {% include sketches_horizontal.liquid %}
         {% endfor %}
       </div>
     {% else %}
       <div class="row row-cols-1 row-cols-md-3 card-container">
-        {% for sketch in sorted_sketches %}
+        {% for sketch in categorized_sketches %}
           {% include sketches.liquid %}
         {% endfor %}
       </div>
@@ -47,23 +46,17 @@ horizontal: false
 {% else %}
 
   <!-- Display sketches without categories -->
-
-  {% assign sorted_sketches = site.sketches | sort: "importance" %}
-
-  <!-- Generate cards for each sketch -->
-
   {% if page.horizontal %}
-
     <div class="projects">
       <div class="row row-cols-1 row-cols-md-2 card-container">
-      {% for sketch in sorted_sketches %}
+      {% for sketch in site.sketches %}
         {% include sketches_horizontal.liquid %}
       {% endfor %}
       </div>
     </div>
     {% else %}
     <div class="row row-cols-1 row-cols-md-3 card-container">
-      {% for sketch in sorted_sketches %}
+      {% for sketch in site.sketches %}
         {% include sketches.liquid %}
       {% endfor %}
     </div>
