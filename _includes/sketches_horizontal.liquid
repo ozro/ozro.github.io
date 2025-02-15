@@ -11,6 +11,7 @@
           <div class="card-body">
             <h3 class="card-title">{{ sketch.title }}</h3>
             <p class="card-text">{{ sketch.description }}</p>
+            <div style="display:none;">{{ sketch.category }}</div>
             <div class="row ml-1 mr-1 p-0">
               {% if sketch.github %}
                 <div class="github-icon">

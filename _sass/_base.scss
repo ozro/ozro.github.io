@@ -179,8 +179,13 @@ ul.task-list input[type="checkbox"] {
   }
 
   .card-body {
-    padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+    padding: 1.25rem 1.25rem 0 1.25rem;
   }
+}
+
+.badge-theme {
+  background-color: var(--global-theme-color);
+  color: var(--global-card-bg-color) !important;
 }
 
 // Citation

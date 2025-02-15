@@ -5,6 +5,7 @@ description: Pong with a twist...
 img: /assets/img/curvepong_anim.webp
 importance: 2
 category: games
+tags: ["multiplayer"]
 giscus_comments: true
 ---
 
