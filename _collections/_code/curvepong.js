@@ -6,7 +6,7 @@ var paddle_speed = 15;
 
 // Ball properties
 var ball_r = 5;  // radius
-var ball_vx_max = 300;  // maximum velocity
+var ball_vx_start = 300;  // maximum velocity
 
 // Game properties
 var score_max = 9;
@@ -72,7 +72,7 @@ class Game {
         this.bx = this.x + this.w / 2;
         this.by = this.y + this.h / 2;
         // Launch ball in random direction at start
-        this.bvx = ball_vx_max * (1 - 2 * Math.round(random(0, 1)));
+        this.bvx = ball_vx_start * (1 - 2 * Math.round(random(0, 1)));
         this.bvy = this.bvx * (random() * 2 - 1);
 
         // Initialize state variables
