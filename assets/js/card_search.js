@@ -4,11 +4,11 @@ document.addEventListener("DOMContentLoaded", function () {
   // actual projsearch logic
   const filterItems = (searchTerm) => {
     // Undo all unloaded classes
-    document.querySelectorAll(".project, .unloaded").forEach((element) => element.classList.remove("unloaded"));
+    document.querySelectorAll(".card-container, .unloaded").forEach((element) => element.classList.remove("unloaded"));
 
     // highlight-search-term
     if (CSS.highlights) {
-      const nonMatchingElements = highlightSearchTerm({ search: searchTerm, selector: ".project > div" });
+      const nonMatchingElements = highlightSearchTerm({ search: searchTerm, selector: ".card-container > div" });
       if (nonMatchingElements == null) {
         return;
       }
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     } else {
       // Simply add unloaded class to all non-matching items if Browser does not support CSS highlights
-      document.querySelectorAll(".project > div").forEach((element, index) => {
+      document.querySelectorAll(".card-container > div").forEach((element, index) => {
         const text = element.innerText.toLowerCase();
         if (text.indexOf(searchTerm) == -1) {
           element.classList.add("unloaded");
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     }
 
-    document.querySelectorAll("a.project").forEach(function (element) {
+    document.querySelectorAll("a.card-container").forEach(function (element) {
       let iterator = element.nextElementSibling; // get next sibling element after h2, which can be h3 or ol
       let hideFirstGroupingElement = true;
       // iterate until next group element (h2), which is already selected by the querySelectorAll(-).forEach(-)
@@ -54,13 +54,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const updateInputField = () => {
     const hashValue = decodeURIComponent(window.location.hash.substring(1)); // Remove the '#' character
-    document.getElementById("projsearch").value = hashValue;
+    document.getElementById("card_search").value = hashValue;
     filterItems(hashValue);
   };
 
   // Sensitive search. Only start searching if there's been no input for 300 ms
   let timeoutId;
-  document.getElementById("projsearch").addEventListener("input", function () {
+  document.getElementById("card_search").addEventListener("input", function () {
     clearTimeout(timeoutId); // Clear the previous timeout
     const searchTerm = this.value.toLowerCase();
     timeoutId = setTimeout(filterItems(searchTerm), 300);
