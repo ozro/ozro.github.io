@@ -16,9 +16,7 @@
       <div style="display:none;">{{ sketch.category }}</div>
     </div>
     <div class="card-footer">
-      {% for tag in sketch.tags %}
-      <a class="badge badge-theme" href="#{{ tag }}">{{ tag }}</a>
-      {% endfor %}
+    {% include tag_badges.liquid tags=sketch.tags %}
     </div>
   <a class="stretched-link" href="{% if sketch.redirect %}{{ sketch.redirect }}{% else %}{{ sketch.url | relative_url }}{% endif %}"> </a>
   </div>

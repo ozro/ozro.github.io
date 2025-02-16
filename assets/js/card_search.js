@@ -1,7 +1,7 @@
 import { highlightSearchTerm } from "./highlight-search-term.js";
 
 document.addEventListener("DOMContentLoaded", function () {
-  // actual projsearch logic
+  // actual search logic
   const filterItems = (searchTerm) => {
     // Undo all unloaded classes
     document.querySelectorAll(".card-container, .unloaded").forEach((element) => element.classList.remove("unloaded"));
@@ -63,6 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("card_search").addEventListener("input", function () {
     clearTimeout(timeoutId); // Clear the previous timeout
     const searchTerm = this.value.toLowerCase();
+    window.location.hash = "#" + searchTerm;  // Update hash value
     timeoutId = setTimeout(filterItems(searchTerm), 300);
   });
 

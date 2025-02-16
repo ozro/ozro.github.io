@@ -186,16 +186,16 @@ ul.task-list input[type="checkbox"] {
   .card-body {
     padding: 1.25rem 1.25rem 0 1.25rem;
   }
-
-  a.badge.badge-theme {
-    z-index: 2;
-    position: relative;
-  }
 }
 
-.badge-theme {
+.tag-badge {
   background-color: var(--global-theme-color);
   color: var(--global-card-bg-color) !important;
+}
+a.tag-badge{
+  z-index: 2;
+  position: relative;
+  user-select: none;
 }
 
 // Citation

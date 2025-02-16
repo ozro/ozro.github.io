@@ -1,0 +1,4 @@
+{% for tag in include.tags %}
+<a id="tag-{{ tag  }}" class="badge tag-badge">{{ tag }}</a>
+{% endfor %}
+<script src="{{ '/assets/js/tag_searchterm.js' | relative_url }}" type="module"></script>
