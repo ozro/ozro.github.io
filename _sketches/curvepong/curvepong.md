@@ -3,6 +3,7 @@ layout: page
 title: curvepong
 description: Pong with a twist... 
 img: /assets/img/curvepong_anim.webp
+source_code: "curvepong_code.js"
 importance: 2
 category: games
 tags: ["multiplayer"]
@@ -32,7 +33,6 @@ Touch
 </div>
 </div>
 
-## Source code
-{% highlight javascript %}
-{% include_relative curvepong_code.js %}
-{% endhighlight %}
+{% if page.source_code %}
+{% include collapse_code.liquid file_path=page.source_code %}
+{% endif %}

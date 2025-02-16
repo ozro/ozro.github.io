@@ -176,6 +176,11 @@ ul.task-list input[type="checkbox"] {
 
   .card-title {
     color: var(--global-text-color);
+
+    & :hover{
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
   }
 
   .card-body {

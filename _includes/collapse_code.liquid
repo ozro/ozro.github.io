@@ -1,0 +1,17 @@
+<div class="card mb-4">
+<div class="card-title mb-0">
+<a class="collapse-btn" href="#collapseCode" data-toggle="collapse" role="button"
+   aria-expanded="false" aria-controls="collapseCode">
+<div class="card-header">
+Show Source Code
+</div>
+</a>
+</div>
+<div class="collapse" id="collapseCode">
+<div class="card card-body">
+{% highlight javascript %}
+{% include_relative {{ include.file_path }} %}
+{% endhighlight %}
+</div>
+</div>
+</div>

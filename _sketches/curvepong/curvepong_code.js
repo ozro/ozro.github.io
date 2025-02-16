@@ -1,7 +1,10 @@
 // Paddle properties
-var paddle_w = 10;  // width
-var paddle_h_ratio = 0.20;  // height
-var paddle_x_ratio = 0.0625;  // horizontal position (how close paddle is to the goal)
+// width
+var paddle_w = 10;  
+// height
+var paddle_h_ratio = 0.20;  
+// horizontal position (how close paddle is to the goal)
+var paddle_x_ratio = 0.0625;  
 var paddle_speed_ratio = 0.02;
 
 // Ball properties
@@ -9,14 +12,20 @@ var ball_r = 5;  // radius
 var ball_vx_start_ratio = 0.4;  // starting velocity
 
 // Physics properties
-var friction = 1;  // How much of paddle velocity is inherited by ball upon collision
-var spin_factor = 0.5;  // How much of paddle velocity is converted to spin
-var spin_boost_wall = 5;  // When ball hits a wall, velocity is increased depending on the amount of spin
-var spin_decay_paddle = 0.75;  // Spin is multiplied by this value when the ball hits a paddle
-var spin_decay_wall = 0.5;  // Spin is multiplied by this value when the ball hits a wall
-var spin_decay_time = 1;  // Set less than 1 to make spin decrease over time
-
-var ai_control_factor = 0.1;  // How well the AI controls the paddle. Higher number means more snappy control.
+// How much of paddle velocity is inherited by ball upon collision
+var friction = 1;  
+// How much of paddle velocity is converted to spin
+var spin_factor = 0.5;  
+// When ball hits a wall, velocity is increased depending on the amount of spin
+var spin_boost_wall = 5;  
+// Spin is multiplied by this value when the ball hits a paddle
+var spin_decay_paddle = 0.75;  
+// Spin is multiplied by this value when the ball hits a wall
+var spin_decay_wall = 0.5;  
+// Set less than 1 to make spin decrease over time
+var spin_decay_time = 1;  
+// How well the AI controls the paddle. Higher number means more snappy control.
+var ai_control_factor = 0.1;  
 
 // Render properties
 var w_max = 800;
@@ -87,7 +96,8 @@ class Game {
         this.bx = this.w / 2;
         this.by = this.h / 2;
         // Launch ball in random direction at start
-        this.bvx = this.w * ball_vx_start_ratio * (1 - 2 * Math.round(random(0, 1)));
+        this.bvx = this.w * ball_vx_start_ratio
+                   * (1 - 2 * Math.round(random(0, 1)));
         this.bvy = this.bvx * (random() * 2 - 1);
 
         // Initialize state variables
@@ -144,17 +154,19 @@ class Game {
         // Left collision
         if ((this.bx - ball_r < paddle_x_ratio * this.w + paddle_w / 2) &&
             (this.bx > paddle_x_ratio * this.w)) {
-            if ((this.by + ball_r >= this.y1 - this.paddle_h / 2) &&
-                (this.by - ball_r <= this.y1 + this.paddle_h / 2) && (this.bvx < 0)) {
+            if ((this.by + ball_r >= this.y1 - this.paddle_h / 2)
+                && (this.by - ball_r <= this.y1 + this.paddle_h / 2)
+                && (this.bvx < 0)) {
                     this.processCollide(true);
             }
         }
 
         // Right collision
-        else if (this.bx + ball_r > this.w - paddle_x_ratio * this.w - paddle_w / 2 &&
-            this.bx < this.w - paddle_x_ratio * this.w) {
-            if (this.by + ball_r >= this.y2 - this.paddle_h / 2 &&
-                this.by - ball_r <= this.y2 + this.paddle_h / 2 && this.bvx > 0) {
+        else if (this.bx + ball_r > (1 - paddle_x_ratio) * this.w - paddle_w / 2
+                && this.bx < this.w - paddle_x_ratio * this.w) {
+            if (this.by + ball_r >= this.y2 - this.paddle_h / 2
+                && this.by - ball_r <= this.y2 + this.paddle_h / 2
+                && this.bvx > 0) {
                     this.processCollide(false)
             }
         }
@@ -169,14 +181,19 @@ class Game {
             this.start();
         }
 
-        rect(this.bx - ball_r, this.by - ball_r, ball_r * 2, ball_r * 2);
-        rect(this.x1 - paddle_w / 2, this.y1 - this.paddle_h / 2, paddle_w, this.paddle_h);
-        rect(this.x2 - paddle_w / 2, this.y2 - this.paddle_h / 2, paddle_w, this.paddle_h);
+        rect(this.bx - ball_r, this.by - ball_r,
+            ball_r * 2, ball_r * 2);
+        rect(this.x1 - paddle_w / 2, this.y1 - this.paddle_h / 2,
+            paddle_w, this.paddle_h);
+        rect(this.x2 - paddle_w / 2, this.y2 - this.paddle_h / 2,
+            paddle_w, this.paddle_h);
         textAlign(CENTER);
         textSize(score_text_size);
-        text(this.score1 + " : " + this.score2, this.w * score_text_pos_x_rel, this.h * score_text_pos_y_rel);
+        text(this.score1 + " : " + this.score2,
+            this.w * score_text_pos_x_rel, this.h * score_text_pos_y_rel);
         textSize(rally_text_size);
-        text(this.rally_count, this.w * rally_text_pos_x_rel, this.h * rally_text_pos_y_rel);
+        text(this.rally_count,
+            this.w * rally_text_pos_x_rel, this.h * rally_text_pos_y_rel);
     }
 
     processCollide(is_p1){
@@ -215,8 +232,12 @@ var p1u = false;  // player one up key down
 var p1d = false;  // player one down key down
 var p2u = false;  // player two up key down
 var p2d = false;  // player two down key down
-var do_ai = true;  // whether to control player 2 with AI. Automatically disables if player two inputs are pressed.
-var do_touch = false;  // Whether to use touch inputs. Automatically disables keyboard controls when touchscreen activated.
+// whether to control player 2 with AI.
+// Automatically disables if player two inputs are pressed.
+var do_ai = true;  
+// Whether to use touch inputs.
+// Automatically disables keyboard controls when touchscreen activated.
+var do_touch = false;  
 var do_reset = false;
 var z = 0;
 
