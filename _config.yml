@@ -578,6 +578,12 @@ third_party_libraries:
       css: "https://cdn.jsdelivr.net/npm/pseudocode@{{version}}/build/pseudocode.min.css"
       js: "https://cdn.jsdelivr.net/npm/pseudocode@{{version}}/build/pseudocode.min.js"
     version: "2.4.1"
+  p5:
+    integrity:
+      js: "sha256-r1HmIR4GG1rkY/vFw8HCcuXKZ/pWDtNRP94XMl2DdQY="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/p5@{{version}}/lib/p5.js"
+    version: "1.11.3"
   spotlight:
     integrity:
       css: "sha256-Dsvkx8BU8ntk9Iv+4sCkgHRynYSQQFP6gJfBN5STFLY="
