@@ -5,6 +5,7 @@ description: another without an image
 img:
 importance: 3
 category: fun
+tags: [hehehe, herher, himhimhim, hishishis, hohoho]
 ---
 
 Every project has a beautiful feature showcase page.

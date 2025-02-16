@@ -5,6 +5,7 @@ description: a project with a background image
 img: assets/img/1.jpg
 importance: 4
 category: fun
+tags: [hehehe, herher, himhimhim, hishishis, hohoho]
 ---
 
 Every project has a beautiful feature showcase page.
