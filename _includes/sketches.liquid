@@ -1,26 +1,25 @@
 <div class="col">
-  <a href="{% if sketch.redirect %}{{ sketch.redirect }}{% else %}{{ sketch.url | relative_url }}{% endif %}">
-    <div class="card h-100 hoverable">
-      {% if sketch.img %}
-        {%
-          include figure.liquid
-          loading="eager"
-          path=sketch.img
-          sizes = "250px"
-          alt="project thumbnail"
-          class="card-img-top"
-        %}
-      {% endif %}
-      <div class="card-body">
-        <h2 class="card-title">{{ sketch.title }}</h2>
-        <p class="card-text">{{ sketch.description }}</p>
-        <div style="display:none;">{{ sketch.category }}</div>
-      </div>
-      <div class="card-footer">
-        {% for tag in sketch.tags %}
-        <span class="badge badge-theme">{{ tag }}</span>
-        {% endfor %}
-      </div>
+  <div class="card h-100 hoverable">
+    {% if sketch.img %}
+      {%
+        include figure.liquid
+        loading="eager"
+        path=sketch.img
+        sizes = "250px"
+        alt="project thumbnail"
+        class="card-img-top"
+      %}
+    {% endif %}
+    <div class="card-body">
+      <h2 class="card-title">{{ sketch.title }}</h2>
+      <p class="card-text">{{ sketch.description }}</p>
+      <div style="display:none;">{{ sketch.category }}</div>
     </div>
-  </a>
+    <div class="card-footer">
+      {% for tag in sketch.tags %}
+      <a class="badge badge-theme" href="#{{ tag }}">{{ tag }}</a>
+      {% endfor %}
+    </div>
+  <a class="stretched-link" href="{% if sketch.redirect %}{{ sketch.redirect }}{% else %}{{ sketch.url | relative_url }}{% endif %}"> </a>
+  </div>
 </div>
