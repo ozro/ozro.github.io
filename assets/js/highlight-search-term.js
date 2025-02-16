@@ -1,7 +1,7 @@
 /**
  * This file is a modified version of:
  * https://github.com/marmelab/highlight-search-term/blob/main/src/index.js
- * - We return the `nonMatchingElements`
+ * - We return the `matchingElements`
  * - We fixed a bug: `getRangesForSearchTermInElement` got the `node.parentElement`, which is not working if there are multiple text nodes in one element.
  *
  * highlight-search-term is published under MIT License.
@@ -39,43 +39,59 @@
  *   highlightSearchTerm({ search: search.value, selector: ".content" });
  * });
  */
-const highlightSearchTerm = ({ search, selector, customHighlightName = "search" }) => {
+const highlightSearchTerm = ({ search, selector, clearHighlights, customHighlightName = "search"}) => {
   if (!selector) {
     throw new Error("The selector argument is required");
   }
 
-  if (!CSS.highlights) return; // disable feature on Firefox as it does not support CSS Custom Highlight API
+  // disable feature on Firefox as it does not support CSS Custom Highlight API
+  if (!CSS.highlights) return {matchingElements: [], nonMatchingElements: []}; 
 
   // remove previous highlight
-  CSS.highlights.delete(customHighlightName);
-  if (!search) {
-    // nothing to highlight
-    return;
+  if(clearHighlights){
+    CSS.highlights.delete(customHighlightName);
   }
-  // find all text nodes containing the search term
-  const ranges = [];
   const nonMatchingElements = [];
-  const elements = document.querySelectorAll(selector);
-  Array.from(elements).map((element) => {
-    let match = false;
-    getTextNodesInElementContainingText(element, search).forEach((node) => {
-      // Modified variant of highlight-search-term
-      // We return the non-matching elements in addition.
-      const rangesForSearch = getRangesForSearchTermInNode(node, search);
-      ranges.push(...rangesForSearch);
-      if (rangesForSearch.length > 0) {
-        match = true;
+  const matchingElements = [];
+  if (search) {
+    // find all text nodes containing the search term
+    const ranges = []; 
+    const elements = document.querySelectorAll(selector);
+    Array.from(elements).map((element) => {
+      let match = false;
+      getTextNodesInElementContainingText(element, search).forEach((node) => {
+        // Modified variant of highlight-search-term
+        // We return the matching elements in addition.
+        const rangesForSearch = getRangesForSearchTermInNode(node, search);
+        ranges.push(...rangesForSearch);
+        if (rangesForSearch.length > 0) {
+          match = true;
+        }
+      });
+      if (!match) {
+        nonMatchingElements.push(element);
+      }
+      else{
+        matchingElements.push(element);
       }
     });
-    if (!match) {
-      nonMatchingElements.push(element);
+    if (ranges.length !== 0){
+      // create a CSS highlight that can be styled with the ::highlight(search) pseudo-element
+      var highlight;
+      if(CSS.highlights.has(customHighlightName)){
+        highlight = CSS.highlights.get(customHighlightName);
+        ranges.forEach(range => {
+          highlight = highlight.add(range);
+        });
+      }
+      else{
+        highlight = new Highlight(...ranges);
+      }
+      CSS.highlights.set(customHighlightName, highlight);
     }
-  });
-  if (ranges.length === 0) return nonMatchingElements; // modified: return `nonMatchingElements`
-  // create a CSS highlight that can be styled with the ::highlight(search) pseudo-element
-  const highlight = new Highlight(...ranges);
-  CSS.highlights.set(customHighlightName, highlight);
-  return nonMatchingElements; // modified: return `nonMatchingElements`
+  }
+  return {matchingElements: matchingElements,
+          nonMatchingElements: nonMatchingElements}; // modified: return `matchingElements`
 };
 
 const getTextNodesInElementContainingText = (element, text) => {
