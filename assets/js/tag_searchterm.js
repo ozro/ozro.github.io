@@ -1,10 +1,6 @@
 var elements = document.getElementsByClassName("tag-badge");
-console.log("hello");
-console.log(elements);
-
 elements.forEach(element => {
     element.addEventListener("click", on_tag_clicked);
-    console.log(element.id);
 });
 
 function on_tag_clicked(){
