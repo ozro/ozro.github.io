@@ -2,7 +2,7 @@
 layout: page
 title: sketches
 permalink: /sketches/
-description: Small pieces of output from my learning/practice endeavors.
+description: Excerpts from my learning/practicing endeavors.
 nav: true
 nav_order: 4
 display_categories: 

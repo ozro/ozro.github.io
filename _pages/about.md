@@ -25,9 +25,9 @@ social: true # includes social icons at the bottom of the page
 
 ---
 
-Hi there! I am a mechanical engineer who thrives at the intersection of mechanics, electronics and software. Currently working at PA consulting in San Francisco building all kinds of innovative things.
-
-In 2019, I graduated from Carnegie Mellon University with a Bachelor's degree in mechanical engineering and robotics. I'm lucky to have a job where I'm a mechanical engineer but still often get to flex my robotics skills.
+Hi there! I am a mechanical engineer who thrives at the intersection of mechanics, electronics and software. 
+In 2019, I graduated from Carnegie Mellon University with a Bachelor's degree in mechanical engineering and robotics. 
+I'm currently working at PA consulting in San Francisco building all kinds of innovative things.
 
 In my spare time I like to play the guitar, cook, and develop video games.
 
