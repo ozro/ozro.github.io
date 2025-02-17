@@ -4,7 +4,7 @@ title: sketches
 permalink: /sketches/
 description: Excerpts from my learning/practicing endeavors.
 nav: true
-nav_order: 4
+nav_order: 3
 display_categories: 
 horizontal: false
 ---
