@@ -278,13 +278,19 @@ function draw() {
         game.reset();
     }
     for (let touch of touches){
-        if(touch.x < game.w/2){ // Left side
-            vel1 += (touch.y - game.y1) * 0.5;
+        if(touch.x > 0 && touch.x < game.w && touch.y > 0 && touch.y < game.h){
+            if(touch.x < game.w/2){ // Left side
+                vel1 += (touch.y - game.y1) * 0.5;
+            }
+            else{ // Right side
+                do_ai = false;
+                vel2 += (touch.y - game.y2) * 0.5;
+            }
         }
-        else{ // Right side
-            do_ai = false;
-            vel2 += (touch.y - game.y2) * 0.5;
-        }
+    }
+    if(mouseIsPressed){
+        if(mouseX > 0 && mouseX < game.w && mouseY > 0 && mouseY < game.h)
+        vel1 += (mouseY - game.y1) * 0.5;
     }
 
     if (do_ai) {
