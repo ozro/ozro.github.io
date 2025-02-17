@@ -2,7 +2,7 @@
 layout: page
 title: curvepong
 description: Pong with a twist... 
-img: /assets/img/curvepong_anim.webp
+img: /assets/img/curvepong_preview.webp
 source_code: "curvepong_code.js"
 importance: 2
 category: games

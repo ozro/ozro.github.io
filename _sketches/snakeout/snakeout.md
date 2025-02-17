@@ -2,7 +2,7 @@
 layout: page
 title: snakeout
 description: When Snake meets Breakout.
-img: 
+img: /assets/img/snakeout_preview.webp
 build_name: snakeout
 importance: 2
 category: games
