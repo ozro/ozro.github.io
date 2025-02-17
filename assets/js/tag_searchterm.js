@@ -4,7 +4,7 @@ elements.forEach(element => {
 });
 
 function on_tag_clicked(){
-    var tag_name = this.id.substring(4);
+    var tag_name = this.id.substring(4).toLowerCase();
     var tag_string_only = tag_name;
     var tag_string_first = tag_name + ", ";
     var tag_string_secondary = ", " + tag_name;
