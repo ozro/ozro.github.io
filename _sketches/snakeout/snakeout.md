@@ -6,7 +6,7 @@ img: /assets/img/snakeout_preview.webp
 build_name: snakeout
 importance: 2
 category: games
-tags: ["webGL", "unity", "multiplayer"]
+tags: ["WebGL", "Unity", "multiplayer"]
 giscus_comments: true
 ---
 
