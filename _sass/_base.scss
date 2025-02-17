@@ -1139,6 +1139,14 @@ progress::-moz-progress-bar {
   }
 }
 
+.dropdown-item.active-item {
+  color: var(--global-hover-color) !important;
+
+  &:hover {
+    color: var(--global-hover-text-color);
+  }
+}
+
 /* Table of Contents */
 nav[data-toggle="toc"] {
   top: 5rem;
