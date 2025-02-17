@@ -1,12 +1,4 @@
----
-layout: page
----
-
 <script src="/assets/js/p5.min.js"></script>
 <!-- <script src="https://cdn.jsdelivr.net/npm/p5.capture@1.4.1/dist/p5.capture.umd.min.js"></script> -->
 <script type="text/javascript" src="{{ "/" | append: page.path | remove: page.name | append: page.source_code }}"></script>
 <div id="sketch-holder"></div>
-
-{{ content }}
-
-{% include collapse_code.liquid file_path=page.source_code %}

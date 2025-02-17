@@ -1,5 +1,5 @@
 ---
-layout: sketch_p5
+layout: page
 title: curvepong
 description: Pong with a twist... 
 img: /assets/img/curvepong_anim.webp
@@ -26,3 +26,6 @@ Touch
 - Tap with three fingers to reset the game.
 </div>
 </div>
+
+{% include p5_canvas.liquid %}
+{% include collapse_code.liquid file_path=page.source_code %}

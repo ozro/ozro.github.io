@@ -1,24 +1,12 @@
----
-layout: page
----
-{% capture build_dir %}{{site.unity_webgl_build_dir}}{{page.build_name}}{% endcapture %}
-{% capture loader_file %}{{ build_dir }}/{{page.build_name}}{{".loader.js" }}{% endcapture %}
-{% capture data_file %}{{ build_dir }}/{{page.build_name}}{{".data.gz" }}{% endcapture %}
-{% capture framework_file %}{{ build_dir }}/{{page.build_name}}{{".framework.js.gz" }}{% endcapture %}
-{% capture code_file %}{{ build_dir }}/{{page.build_name}}{{".wasm.gz" }}{% endcapture %}
+{% capture build_dir %}{{site.unity_webgl_build_dir}}{{include.build_name}}{% endcapture %}
+{% capture loader_file %}{{ build_dir }}/{{include.build_name}}{{".loader.js" }}{% endcapture %}
+{% capture data_file %}{{ build_dir }}/{{include.build_name}}{{".data.unityweb" }}{% endcapture %}
+{% capture framework_file %}{{ build_dir }}/{{include.build_name}}{{".framework.js.unityweb" }}{% endcapture %}
+{% capture code_file %}{{ build_dir }}/{{include.build_name}}{{".wasm.unityweb" }}{% endcapture %}
 
-- Loader: {{loader_file}}
-
-- data: {{data_file}}
-
-- framework: {{framework_file}}
-
-- code: {{code_file}}
-
-
-
-
+<div class="row mb-4 unity-holder justify-content-center">
 <canvas id="unity-canvas" width=960 height=600 tabindex="-1" style="width: 960px; height: 600px; background: #231F20"></canvas>
+</div>
 <script src="{{loader_file}}"></script>
 <script>
 if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
@@ -29,9 +17,8 @@ if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
     document.getElementsByTagName('head')[0].appendChild(meta);
 
     var canvas = document.querySelector("#unity-canvas");
-    canvas.style.width = "100%";
-    canvas.style.height = "100%";
-    canvas.style.position = "fixed";
+    canvas.style.width = "75%";
+    canvas.style.height = "75%";
 
     document.body.style.textAlign = "left";
 }
@@ -49,5 +36,3 @@ createUnityInstance(document.querySelector("#unity-canvas"), {
     // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
 });
 </script>
-
-{{ content }}
