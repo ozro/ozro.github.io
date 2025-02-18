@@ -4,23 +4,23 @@
 {% capture framework_file %}{{ build_dir }}/{{include.build_name}}{{".framework.js.unityweb" }}{% endcapture %}
 {% capture code_file %}{{ build_dir }}/{{include.build_name}}{{".wasm.unityweb" }}{% endcapture %}
 
-<div class="row mb-4 unity-holder justify-content-center">
+<div class="row mb-4 unity-holder justify-content-center" height=100vh>
 <canvas id="unity-canvas" width=960 height=600 tabindex="-1" style="width: 960px; height: 600px; background: #231F20"></canvas>
 </div>
 <script src="{{loader_file}}"></script>
 <script>
 if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-    // Mobile device style: fill the whole browser client area with the game canvas:
+    //Mobile device style: fill the whole browser client area with the game canvas:
     var meta = document.createElement('meta');
     meta.name = 'viewport';
     meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
     document.getElementsByTagName('head')[0].appendChild(meta);
 
     var canvas = document.querySelector("#unity-canvas");
+    canvas.height = canvas.clientHeight;
     canvas.style.width = "75%";
-    canvas.style.height = "75%";
-
-    document.body.style.textAlign = "left";
+    canvas.style.height = "100%";
+    canvas.position = "fixed";
 }
 
 createUnityInstance(document.querySelector("#unity-canvas"), {
