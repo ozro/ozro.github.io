@@ -1,0 +1,5 @@
+linkedin.com
+reddit.com
+# Exclude raw liquid strings
+file:///home/runner/work/ozro.github.io/ozro.github.io/_sketches/sketches/%7B%7Bfilepath%7D%7D
+file:///home/runner/work/ozro.github.io/ozro.github.io/_sketches/sketches/%7B%7Bthumbnail%7D%7D

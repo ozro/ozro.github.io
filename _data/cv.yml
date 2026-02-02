@@ -1,0 +1,352 @@
+settings:
+  current_date: "2026-01-25"
+  render_command:
+    design:
+    locale:
+    typst_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: "../assets/pdf/NAME_IN_SNAKE_CASE_CV.pdf"
+    # markdown_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.md
+    # html_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.html
+    # png_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: true
+    dont_generate_html: true
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: true
+  bold_keywords: []
+
+cv:
+  name: "Oliver Zhang"
+  label: "Mechanical Engineer"
+  location: "San Francisco, USA"
+  email: "oliverzhang1@yahoo.com"
+  website: "https://oliverzzhang.com/"
+  image: ""
+  social_networks:
+    - network: LinkedIn
+      username: "oliverzzhang"
+    - network: GitHub
+      username: "ozro"
+  sections:
+    Summary:
+      - I'm a versatile engineer with extensive experience building highly integrated electro-mechanical systems. I thrive when working in highly collaborative cross-disciplinary teams. I love finding elegant solutions that bring innovative ideas to life.
+    Education:
+      - institution: "Carnegie Mellon University"
+        area: "Mechanical Engineering with an additional major in Robotics with University Honors"
+        studyType: Bachelor of Science
+        location: Pittsburgh, USA
+        degree: "BS"
+        start_date: 2015-08
+        end_date: 2019-05
+        highlights:
+          - "Completed a wide range of course work from mechanical engineering fundamentals to computer vision, artificial intelligence, and systems engineering."
+          - "Worked with cross-disciplinary teams on multiple projects, including building an amphibious vehicle, a self-navigating drone, and an autonomous delivery robot."
+    Experience:
+      - company: "PA Consulting"
+        position: "Senior Mechanical Engineer"
+        location: "San Francisco, USA"
+        start_date: "2019-07"
+        end_date: "present"
+        summary: Collaborating with diverse engineers and designers to find the path through complex challenges and turn inventive ideas into innovative products.
+        highlights:
+          - "The team's go-to expert for robotics, systems engineering, and analysis."
+          - "Delivering projects across many different industries, from medical robotics to industrial food production."
+          - "Collaborating with a wide range of clients from tech startups to Fortune 500 companies."
+          - "Coordinating highly disciplinary teams spread across multiple geographies."
+          - "Breaking complex problems down into key interactions and applying first principles analysis and modelling."
+          - "Building prototypes at the right fidelity to rapidly drive to the optimal design."
+          - "Growing the team's capabilities through weekly forums and training sessions, covering topics like analysis, sketching, or programming."
+      - company: "Autel Robotics"
+        position: "Project Engineer Intern"
+        location: "Pittsburgh, USA"
+        start_date: 2017-05
+        end_date: 2017-08
+        summary: Implemented tracking and gesture recognition algorithms for embedded execution on a quadcopter.
+        highlights: []
+    Skills:
+      - label: Programming
+        details: Python, C/C++, MATLAB, ROS, Unity
+      - label: Mechanical Engineering
+        details: Concept development and prototyping, Analysis of complex systems, DfM, SolidWorks
+      - label: Systems Engineering
+        details: Requirements development, System architecture design, Risk management
+      - label: Robotics
+        details: Feedback control, Sensor integration, Motion planning
+      - label: Languages
+        details: English (native speaker), Mandarin (native speaker)
+    Patents:
+      - name: "[US11058204B2](https://patents.google.com/patent/WO2021087161A1/en)"
+        summary: Automated total nail care systems, devices, and methods
+        date: "2021-07-13"
+    Projects:
+      - name: Novel Electromechanical Machine
+        date:
+        start_date: 2025-08
+        end_date: present
+        location:
+        summary: Developing a consumer facing electromechanical machine for a Fortune 500 company.
+        highlights:
+          - Owned design of an Alpha prototype system with 7 actuated degrees of freedom.
+          - Designed complex motion systems in heavily space constrained and finish constrained environment.
+          - Balanced stringent industrial design intent with mechanical reliability, while meeting aggressive schedule.
+          - Interfaced with a diverse team of systems engineers, electrical engineers, software engineers, and industrial designers.
+          - Led prototype build effort and ensured successful delivery to client.
+      - name: "[Novel Cable Splicing Machine](https://oliverzzhang.com/projects/splice/)"
+        date:
+        start_date: 2024-08
+        end_date: 2025-08
+        location:
+        summary: Developing an underground cable splicing machine that automates a complex process typically done by a trained technician.
+        highlights:
+          - Built complex set of system requirements drawn from multiple different stakeholders, and managed key risks.
+          - Designed system architecture to maximise reliability while meeting stringent weight and space constraints.
+          - Created system workflows to validate concept of operation.
+          - Developed multiple electromechanical mechanisms that each perform dexterous operations that previously required highly coordinated human actions.
+      - name: "Novel Smart Fitness Machine"
+        date:
+        start_date: 2022-08
+        end_date: 2024-08
+        summary: Developed a novel fitness machine that is controllable wirelessly and can report data from multiple integrated sensors.
+        highlights:
+          - Implemented and refined controls algorithms to realistically simulate inertia with an electric motor.
+          - Built custom dynamometer rig with custom software which simulates human motion and displays metrics in real-time.
+          - Led systems engineering effort to manage the integration and testing of the prototype across multiple locations globally.
+          - Coordinated a highly cross-functional team with industrial designers, electrical engineers, firmware engineers, and mechanical engineers
+      - name: "Optimising Industrial Food Production"
+        date:
+        start_date: 2023-08
+        end_date: 2023-11
+        summary: Analysed an industrial food production line to identify root causes of defects and improve throughput without changing line footprint.
+        highlights:
+          - Analytically modelled complex dynamic behavior of key components in the production line leveraging high-speed camera footage collected on-site.
+          - Developed several concepts for improvement, covering the full solution space.
+          - Client implemented designs and achieved 1.75x increased throughput without increasing line footprint.
+      - name: "Optimising Commercial Appliance"
+        date:
+        start_date: 2022-03
+        end_date: 2022-11
+        summary: Analysed airflow through a commercial appliance to optimise efficiency.
+        highlights:
+          - Built thermodynamic simulation of the system based on lab data collected from dozens of sensors.
+          - Developed a feedback control system that dynamically adjusts air flow rate for best system performance.
+          - Coordinated with firmware engineers and technicians to deploy and test control system.
+      - name: "Electromechanical Security Product"
+        date:
+        start_date: 2022-02
+        end_date: 2022-03
+        summary: Rapidly developed concepts and prototypes for addressing a critical issue in a electromechanical security product.
+        highlights:
+          - Analysed the existing design, identifying root causes of issues found in the field.
+          - Brainstormed ideas and mapped the solution space with a dozen key architectures.
+          - Built multiple prototypes that successfully demonstrated five leading concepts.
+      - name: "Medical Robot Arm"
+        date:
+        start_date: 2021-04
+        end_date: 2022-02
+        summary: Developed mechanical designs for one of the arms in a medical robot.
+        highlights:
+          - Optimised structural components with stringent weight and stiffness requirements.
+          - Analysed and designed parts with extremely tight tolerances to ensure assemblability while minimising clearance.
+          - Built comprehensive analytical model of a linkage mechanism to predict motion, loads, and deflection.
+      - name: "[Novel Subsystem Prototype](https://oliverzzhang.com/projects/spool/)"
+        date:
+        start_date: 2020-09
+        end_date: 2021-04
+        summary: Developed a proof-of-principle prototype to de-risk a key robotic subsystem.
+        highlights:
+          - Developed a complex analytical model of the behavior of elastic materials fed from a spool.
+          - Experimented with medical grade extruded tube materials, coatings, and cross-sectional profiles to generate desired properties such as bending stiffness, resilience, creep, and friction.
+          - Designed and built a robotic system that process various sensor inputs to drive a custom control algorithm. The system uses clinical trial data to simulate real user motion, allowing high fidelity testing of expected behavior.
+      - name: "[Evolv Express® Threat Detection System](https://oliverzzhang.com/projects/evolv-express/)"
+        date:
+        start_date: 2019-11
+        end_date: 2020-09
+        summary: Developed manufacturable prototype in support of client electronics, addressing challenging structural, materials, mobility, and environmental requirements.
+        highlights:
+          - Architected mechanical structure to improve stiffness, assemblability, and serviceability.
+          - Converted fibreglass sheet-based design into structural foam/RIM/plastic extrusions.
+          - Performed comprehensive Six sigma tolerance stack analysis and implemented GD&T tolerance controls.
+      - name: "Novel Chemical Treatment Prototype"
+        date:
+        start_date: 2019-08
+        end_date: 2019-11
+        summary: Developed a prototype machine for temperature-controlled chemical treatment
+        highlights:
+          - Developed Peltier cooling channels that maintain the temperature of a chemical being cycled through the system.
+          - Designed sound dampening features to reduce the noise impact from vacuum pumps.
+          - Built a portable sheet metal enclosure to hold sensitive chemicals and electronics.
+      - name: "Novel Human Machine Interface (HARMAN International)"
+        date:
+        start_date: 2018-05
+        end_date: 2018-08
+        summary: Developed shape-shifting device to support client investigations into novel human-machine interfaces.
+        highlights:
+          - Developed concepts through brainstorming, cross-pollination, and down-selection processes.",
+          - Built an integrated electromechanical prototype that was displayed at a major international trade show.",
+          - Built a graphics user interface to prove prototype usability and reliability."
+
+design:
+  theme: engineeringclassic
+  page:
+    size: a4
+  #   top_margin: 0.7in
+  #   bottom_margin: 0.7in
+  #   left_margin: 0.7in
+  #   right_margin: 0.7in
+  #   show_footer: true
+  #   show_top_note: true
+  # colors:
+  #   body: rgb(0, 0, 0)
+  #   name: rgb(0, 79, 144)
+  #   headline: rgb(0, 79, 144)
+  #   connections: rgb(0, 79, 144)
+  #   section_titles: rgb(0, 79, 144)
+  #   links: rgb(0, 79, 144)
+  #   footer: rgb(128, 128, 128)
+  #   top_note: rgb(128, 128, 128)
+  # typography:
+  #   line_spacing: 0.6em
+  #   alignment: justified
+  #   date_and_location_column_alignment: right
+  #   font_family:
+  #     body: Source Sans 3
+  #     name: Source Sans 3
+  #     headline: Source Sans 3
+  #     connections: Source Sans 3
+  #     section_titles: Source Sans 3
+  #   font_size:
+  #     body: 10pt
+  #     name: 30pt
+  #     headline: 10pt
+  #     connections: 10pt
+  #     section_titles: 1.4em
+  #   small_caps:
+  #     name: false
+  #     headline: false
+  #     connections: false
+  #     section_titles: false
+  #   bold:
+  #     name: true
+  #     headline: false
+  #     connections: false
+  #     section_titles: true
+  # links:
+  #   underline: false
+  #   show_external_link_icon: false
+  # header:
+  #   alignment: center
+  #   photo_width: 3.5cm
+  #   photo_position: left
+  #   photo_space_left: 0.4cm
+  #   photo_space_right: 0.4cm
+  #   space_below_name: 0.7cm
+  #   space_below_headline: 0.7cm
+  #   space_below_connections: 0.7cm
+  #   connections:
+  #     phone_number_format: national
+  #     hyperlink: true
+  #     show_icons: true
+  #     display_urls_instead_of_usernames: false
+  #     separator: ''
+  #     space_between_connections: 0.5cm
+  # section_titles:
+  #   type: with_partial_line
+  #   line_thickness: 0.5pt
+  #   space_above: 0.5cm
+  #   space_below: 0.3cm
+  # sections:
+  #   allow_page_break: true
+  #   space_between_regular_entries: 1.2em
+  #   space_between_text_based_entries: 0.3em
+  #   show_time_spans_in:
+  #     - experience
+  # entries:
+  #   date_and_location_width: 4.15cm
+  #   side_space: 0.2cm
+  #   space_between_columns: 0.1cm
+  #   allow_page_break: false
+  #   short_second_row: true
+  #   summary:
+  #     space_above: 0cm
+  #     space_left: 0cm
+  #   highlights:
+  #     bullet: •
+  #     nested_bullet: •
+  #     space_left: 0.15cm
+  #     space_above: 0cm
+  #     space_between_items: 0cm
+  #     space_between_bullet_and_text: 0.5em
+  # templates:
+  #   footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
+  #   top_note: '*LAST_UPDATED CURRENT_DATE*'
+  #   single_date: MONTH_ABBREVIATION YEAR
+  #   date_range: START_DATE – END_DATE
+  #   time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
+  #   one_line_entry:
+  #     main_column: '**LABEL:** DETAILS'
+  #   education_entry:
+  #     main_column: |-
+  #       **INSTITUTION**, AREA
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     degree_column: '**DEGREE**'
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   normal_entry:
+  #     main_column: |-
+  #       **NAME**
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   experience_entry:
+  #     main_column: |-
+  #       **COMPANY**, POSITION
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   publication_entry:
+  #     main_column: |-
+  #       **TITLE**
+  #       SUMMARY
+  #       AUTHORS
+  #       URL (JOURNAL)
+  #     date_and_location_column: DATE
+locale:
+  language: english
+  # last_updated: Last updated in
+  # month: month
+  # months: months
+  # year: year
+  # years: years
+  # present: present
+  # month_abbreviations:
+  #   - Jan
+  #   - Feb
+  #   - Mar
+  #   - Apr
+  #   - May
+  #   - June
+  #   - July
+  #   - Aug
+  #   - Sept
+  #   - Oct
+  #   - Nov
+  #   - Dec
+  # month_names:
+  #   - January
+  #   - February
+  #   - March
+  #   - April
+  #   - May
+  #   - June
+  #   - July
+  #   - August
+  #   - September
+  #   - October
+  #   - November
+  #   - December

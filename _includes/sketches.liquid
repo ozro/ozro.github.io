@@ -1,0 +1,23 @@
+<div class="col mb-4 card-container">
+  <div class="card hoverable">
+    {% if sketch.img %}
+      {%
+        include figure.liquid
+        loading="eager"
+        path=sketch.img
+        sizes = "250px"
+        alt="project thumbnail"
+        class="card-img-top"
+      %}
+    {% endif %}
+    <div class="card-body">
+      <h2 class="card-title">{{ sketch.title }}</h2>
+      <p class="card-text">{{ sketch.description }}</p>
+      <div style="display:none;">{{ sketch.category }}</div>
+    </div>
+    <div class="card-footer">
+      {% include tag_badges.liquid tags=sketch.tags %}
+    </div>
+    <a class="stretched-link" href="{% if sketch.redirect %}{{ sketch.redirect }}{% else %}{{ sketch.url | relative_url }}{% endif %}"> </a>
+  </div>
+</div>
