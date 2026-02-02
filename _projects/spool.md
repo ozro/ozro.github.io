@@ -9,11 +9,11 @@ tags: [medical, extrusions, feedback controls, data analysis]
 published: true
 ---
 
-The client came to PA Consulting to de-risk a complex concept which was essentially how pushing a noodle through a garden hose. I worked with another engineer to mature the concept from just an idea to a fully automated proof of principle prototype that could simulate movements recorded in clinical trials.
+The client came to PA Consulting to de-risk a concept for a complex subsystem that essentially needed to push a noodle through a garden hose. I worked with another engineer to mature the concept from just an idea to a fully automated proof of principle prototype that could simulate movements based on data recorded in clinical trials.
 
 ### Noodle bending
 
-We needed to understand how a semi-rigid noodle would behave as the system pushed upon it, and one of the main things to consider was the friction experienced by the noodle. I soon found out that the noodle could curl into a helix within the volume of the support structure, contacting it in many points along its length. Pushing in this state can cause the device to dig deeper into the walls of the hose, making it impossible to advance.
+We needed to understand how a semi-rigid noodle would behave as the system pushed upon it, and one of the main things to consider was the friction experienced by the noodle. Through empirical experiments, I soon found out that the noodle could curl into a helix within the volume of the support structure, contacting it in many points along its length. Pushing in this state can cause the device to dig deeper into the walls of the hose, making it impossible to advance.
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-6 mt-3 mt-md-0">
@@ -52,7 +52,9 @@ Another factor was the way the hose was spooled. I initially explored helical sp
 
 The system cannot function unless the noodle is fully surrounded by the hose, but due to the system architecture, the noodle must also exit the hose somewhere in the middle. A clever way was needed to allow the device to pass through the hose at a exit location fixed relative to the spool, but not fixed relative to the end of the hose.
 
-I did several brainstorms and concept development sessions to identify potential solutions. I settled on a split design, which allowed the hose to be split open to allow device exit. This path required carefully selecting the hose material to be elastic enough to close itself after being split open. The noodle can potentially squeeze through any gap along the main length of the hose. This also meant any plastic deformation was unacceptable.
+I did several brainstorms and concept development sessions to identify potential solutions. I settled on a split hose, which could be split open at a specific location to allow the noodle to exit. This design required carefully selecting the hose material to be elastic enough to close itself after being split open. The noodle can potentially squeeze through any residual gap along the main length of the hose. This also meant any plastic deformation during splitting was unacceptable.
+
+I explored more complex hose profiles, such as ones with wings that could be bent to reduce the splitting force. I also looked into composite extrusions, where materials with different properties are extruded together so we can leverage the unique advantages of each material. Because the extruded materials took 3+ weeks to procure, I had to balance analytical methods with rapid prototyping.
 
 ## Test Bed
 
