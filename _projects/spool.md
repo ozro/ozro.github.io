@@ -1,9 +1,11 @@
 ---
-layout: page
+layout: project_page
 title: Novel Subsystem Prototype
 description: De-risking a key robotic subsystem by building a feedback controlled prototype that can simulate clinical trials.
 img: assets/img/albums/spool/buckling.jpg
 date: 2020-07-01
+team_size: 2
+duration: 8 months
 category: work
 tags: [medical, extrusions, feedback controls, data analysis]
 published: true

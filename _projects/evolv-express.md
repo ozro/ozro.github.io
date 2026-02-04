@@ -1,9 +1,11 @@
 ---
-layout: page
+layout: project_page
 title: Evolv Express
 description: Developed a first of its kind weapons detection system.
 img: /assets/img/albums/evolv-express/evolv-express-preview.webp
 date: 2019-11-01
+team_size: 5+
+duration: 10 months
 category: work
 tags: [DFM, DFA, tolerance analysis, injection moulding, extrusions]
 ---
