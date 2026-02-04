@@ -139,7 +139,7 @@ I'm a versatile engineer with extensive experience building highly integrated el
 
     - Coordinating highly disciplinary teams spread across multiple geographies.
 
-    - Breaking complex problems down into key interactions and applying first principles analysis and modeling.
+    - Breaking complex problems down into key interactions and applying first principles analysis and modelling.
 
     - Building prototypes at the right fidelity to rapidly drive to the optimal design.
 
@@ -237,7 +237,7 @@ I'm a versatile engineer with extensive experience building highly integrated el
 
     - Created system workflows to validate concept of operation.
 
-    - Developed multiple electromechanical mechanisms that each perform dextrous operations that previously required highly coordinated human actions.
+    - Developed multiple electromechanical mechanisms that each perform dexterous operations that previously required highly coordinated human actions.
 
   ],
 )
@@ -277,11 +277,11 @@ I'm a versatile engineer with extensive experience building highly integrated el
   main-column-second-row: [
     #summary[Analysed an industrial food production line to identify root causes of defects and improve throughput without changing line footprint.]
 
-    - Analytically modeled complex dynamic behavior of key components in the production line leveraging high-speed camera footage collected on-site.
+    - Analytically modelled complex dynamic behavior of key components in the production line leveraging high-speed camera footage collected on-site.
 
     - Developed several concepts for improvement, covering the full solution space.
 
-    - Client implemented designs and achieved 1.75x increased throughput without increasing line footprint.
+    - Client implemented designs and achieved 47\% increased throughput without increasing line footprint.
 
   ],
 )
@@ -384,7 +384,7 @@ I'm a versatile engineer with extensive experience building highly integrated el
 
     - Architected mechanical structure to improve stiffness, assemblability, and serviceability.
 
-    - Converted fiberglass sheet-based design into structural foam\/RIM\/plastic extrusions.
+    - Converted fibreglass sheet-based design into structural foam\/RIM\/plastic extrusions.
 
     - Performed comprehensive Six sigma tolerance stack analysis and implemented GD&T tolerance controls.
 

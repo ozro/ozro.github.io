@@ -120,7 +120,7 @@ cv:
         highlights:
           - Analytically modelled complex dynamic behavior of key components in the production line leveraging high-speed camera footage collected on-site.
           - Developed several concepts for improvement, covering the full solution space.
-          - Client implemented designs and achieved 1.75x increased throughput without increasing line footprint.
+          - Client implemented designs and achieved 47% increased throughput without increasing line footprint.
       - name: "Optimising Commercial Appliance"
         date:
         start_date: 2022-03
