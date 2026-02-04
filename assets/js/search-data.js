@@ -40,6 +40,11 @@ ninja.data = [{
           description: "De-risking a key robotic subsystem by building a feedback controlled prototype that can simulate clinical trials.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/spool/";
+            },},{id: "projects-food-production-optimisation",
+          title: 'Food Production Optimisation',
+          description: "Optimised an industrial food production line, nearly doubling throughput without increase in footprint.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/food/";
             },},{id: "projects-novel-cable-splicing-machine",
           title: 'Novel Cable Splicing Machine',
           description: "Developing an underground cable splicing machine that automates a complex process typically done by a trained technician.",
