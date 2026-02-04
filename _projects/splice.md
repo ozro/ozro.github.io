@@ -4,7 +4,7 @@ title: Novel Cable Splicing Machine
 description: Developing an underground cable splicing machine that automates a complex process typically done by a trained technician.
 img: assets/img/albums/splice/splice-preview.jpg
 date: 2024-08-01
-duration: 1 year 
+duration: 1 year
 team_size: 5+
 category: work
 tags: [systems engineering, prototyping, mechanism design]
