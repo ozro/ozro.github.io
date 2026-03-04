@@ -34,7 +34,7 @@ As Evolv grows, I've been seeing the Express system more and more in the wild. I
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/albums/evolv-express/express-oracle.webp" title="Express in front of stadium" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
-        In front of Oracle Park, San Francisco, 2022. This was just a few minutes away from where I live.
+        In front of Oracle Park, San Francisco, 2022. This was just a few minutes away from where I lived.
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">

@@ -4,11 +4,12 @@ title: Novel Cable Splicing Machine
 description: Developing an underground cable splicing machine that automates a complex process typically done by a trained technician.
 img: assets/img/albums/splice/splice-preview.jpg
 date: 2024-08-01
-duration: 1 year
+duration: 1 year+
 team_size: 5+
 category: work
 tags: [systems engineering, prototyping, mechanism design]
 ---
+# The Problem
 
 Prysmian manufactures high voltage cable splices used in underground manholes. When dealing with voltages in the range of tens of thousands of volts, just soldering two cables together doesn't cut it. A high-voltage splice contains many layers of different materials to avoid sharp transitions in the electric field which could lead to potentially catastrophic partial discharges.
 
@@ -32,10 +33,12 @@ Installing these joints is not straightforward, and cable splicers have to under
 
 Many of the steps during installation remains highly manual, leading to improper installation which can reduce the life of the splice or cause permanent damage to the cable.
 
+# The Project
 PA Consulting collaborated with Prysmian and the Advanced Research Projects Agency (ARPA-E, part of the United States Department of Energy) to obtain [a grant to develop an Error-Free Splicing Machine for Underground Power Cables](https://arpa-e.energy.gov/programs-and-initiatives/search-all-projects/error-free-splicing-machine-underground-power-cables). The machine would automate all of the splicing steps which will reduce error rates and improve splice quality.
 
 On the project, I initially served as a systems engineer, developing a complex set of system requirements drawn from multiple different stakeholders. Though Prysmian was PA Consulting's primary client, also involved were utility companies in Chicago and New York City who were the intended end users of the splicing machine. I defined architecture of the machine, addressing the key risks of the system and building user and system workflows. I coordinated a highly cross-disciplinary team of mechanical, electrical, and firmware engineers.
 
 Beyond systems engineering I also took on the design of a taping subsystem responsible for applying tape of all kinds: mastic, copper, and PVC. After going through several brainstorms and teardowns of existing technology, I based the design on an OTS tape dispenser, but incorporated an automatic tape cutter that reused existing degrees of freedom on the machine. This avoided adding in additional sensing, actuation and cable management. The subsystem was tested on a manual lathe to simulate the motions available in the machine.
 
-Though I transitioned to another project, the team continues to develop the system. Excited to see where it ends up!
+# The Results
+I was pulled onto another project before this one was complete. The team continues to develop the system, and recently passed a milestone proving the system can carry out the necessary functions within the required system envelope. Excited to see where it ends up!

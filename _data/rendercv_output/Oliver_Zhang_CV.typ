@@ -96,7 +96,9 @@
 
 == Summary
 
-I'm a versatile engineer with extensive experience building highly integrated electro-mechanical systems. I thrive when working in highly collaborative cross-disciplinary teams. I love finding elegant solutions that bring innovative ideas to life.
+I'm a versatile mechanical engineer with extensive experience building electro-mechanical systems at the heart of Silicon Valley. I love finding elegant solutions that bring innovative ideas to life.
+
+I'm an Australian citizen.
 
 == Education
 
@@ -204,7 +206,7 @@ I'm a versatile engineer with extensive experience building highly integrated el
 
   ],
   main-column-second-row: [
-    #summary[Developing a consumer facing electromechanical machine for a Fortune 500 company.]
+    #summary[Developing a consumer facing electromechanical machine for a global technology company.]
 
     - Owned design of an Alpha prototype system with 7 actuated degrees of freedom.
 

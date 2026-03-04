@@ -116,7 +116,9 @@ layout: default
         {% if cv.sections.Summary %}
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">Summary</h3>
-            <p>{{ cv.sections.Summary | markdownify | remove: '<p>' | remove: '</p>' | remove: '[“' | remove: '”]' }}</p>
+            {% for summary_item in cv.sections.Summary %}
+              <p>{{ summary_item | markdownify | remove: '<p>' | remove: '</p>' | remove: '“' | remove: '”' }}</p>
+            {% endfor %}
           </div>
         {% endif %}
 

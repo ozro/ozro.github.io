@@ -29,7 +29,7 @@ cv:
       username: "ozro"
   sections:
     Summary:
-      - I'm a versatile mechanical engineer with extensive experience building electro-mechanical systems at the heart of Silicon Valley. I love finding elegant solutions that bring innovative ideas to life.
+      - I'm a versatile mechanical engineer with extensive experience building electro-mechanical systems at the heart of Silicon Valley. I thrive in cross-disciplinary teams and love finding elegant solutions that bring innovative ideas to life.
       - I'm an Australian citizen.
     Education:
       - institution: "Carnegie Mellon University"
@@ -79,7 +79,7 @@ cv:
       - name: "[US11058204B2](https://patents.google.com/patent/WO2021087161A1/en)"
         summary: Automated total nail care systems, devices, and methods
         date: "2021-07-13"
-    Projects:
+    Select Projects:
       - name: Novel Electromechanical Machine
         date:
         start_date: 2025-08
