@@ -33,12 +33,29 @@ Installing these joints is not straightforward, and cable splicers have to under
 
 Many of the steps during installation remains highly manual, leading to improper installation which can reduce the life of the splice or cause permanent damage to the cable.
 
-# The Project
 PA Consulting collaborated with Prysmian and the Advanced Research Projects Agency (ARPA-E, part of the United States Department of Energy) to obtain [a grant to develop an Error-Free Splicing Machine for Underground Power Cables](https://arpa-e.energy.gov/programs-and-initiatives/search-all-projects/error-free-splicing-machine-underground-power-cables). The machine would automate all of the splicing steps which will reduce error rates and improve splice quality.
 
+## Systems Engineering
 On the project, I initially served as a systems engineer, developing a complex set of system requirements drawn from multiple different stakeholders. Though Prysmian was PA Consulting's primary client, also involved were utility companies in Chicago and New York City who were the intended end users of the splicing machine. I defined architecture of the machine, addressing the key risks of the system and building user and system workflows. I coordinated a highly cross-disciplinary team of mechanical, electrical, and firmware engineers.
 
-Beyond systems engineering I also took on the design of a taping subsystem responsible for applying tape of all kinds: mastic, copper, and PVC. After going through several brainstorms and teardowns of existing technology, I based the design on an OTS tape dispenser, but incorporated an automatic tape cutter that reused existing degrees of freedom on the machine. This avoided adding in additional sensing, actuation and cable management. The subsystem was tested on a manual lathe to simulate the motions available in the machine.
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6">
+      {% include figure.liquid path="assets/img/albums/splice/splice-workflow.jpg" title="a screenshot of a workflow diagram." class="img-fluid rounded z-depth-1" %}
+      <div class="caption">One of the workflow diagrams I made focusing on the unique characteristics of each work step.</div>
+    </div>
+</div>
 
-# The Results
+## Mechanism Design
+Beyond systems engineering I also took on the design of a taping subsystem responsible for applying tape of all kinds: mastic, copper, and PVC. After going through several brainstorms and teardowns of existing technology, I built lots of quick prototypes to develop intuition and deeper understanding.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6">
+      {% include figure.liquid path="assets/img/albums/splice/splice-tape-prototype.jpg" title="a picture of a taper prototype." class="img-fluid rounded z-depth-1" %}
+      <div class="caption">A quick prototype built from scavenged OTS tape dispenser parts and a laser-cut base.</div>
+    </div>
+</div>
+
+My final design operated in a similar way as the prototype, but incorporated a sprung tape cutter that used existing degrees of freedom on the machine. This avoided adding in additional sensing, actuation and cable management. The subsystem was tested on a manual lathe to simulate the motions available in the machine.
+
+## The Results
 I was pulled onto another project before this one was complete. The team continues to develop the system, and recently passed a milestone proving the system can carry out the necessary functions within the required system envelope. Excited to see where it ends up!

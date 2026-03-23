@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Food Production Optimisation
-description: Optimised an industrial food production line, nearly doubling throughput without increase in footprint.
+description: Optimised an industrial food production line, increasing throughput by 47% without increasing footprint.
 img: assets/img/albums/food/line_preview.webp
 date: 2023-11-01
 team_size: 4
@@ -64,12 +64,21 @@ The total reset time explained many of the defects we were seeing. Flats were ca
 
 # Exploring the concept space
 
-Now that we understood the root cause of issues and the constraints we must work within, we generating concepts to address the problem. We performed several brainstorm sessions with different prompts and with different groups of people, culminating in a wide solution space with around 30 different concepts. After some further analysis and refinement, we presented 9 concepts, each with different trade offs between complexity, reliability, and cost.
+Now that we understood the root cause of issues and the constraints we must work within, we generating concepts to address the problem. We performed several brainstorm sessions with different prompts and with different groups of people, culminating in a wide solution space with around hundreds of ideas.
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-10 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/albums/food/food-brainstorm.jpg" title="some sketches from one of the brainstorms." class="img-fluid rounded z-depth-1" %}
+    <div class="caption">Some sketches from one of the brainstorms.</div>
+  </div>
+</div>
+
+We performed further refinement, consolidating the ideas into 30 different concepts, which we organised in a hierarchical space. In the end we presented 9 down selected concepts ranked in a Pugh matrix, each with different trade offs between complexity, reliability, and cost.
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
     {% include figure.liquid path="assets/img/albums/food/food-concepts.jpg" title="hierarchical diagram of the solution space." class="img-fluid rounded z-depth-1" %}
-    <div class="caption">Hierarchical diagram of the solution space. The legend in the bottom right shows the meaning of the block colours.</div>
+    <div class="caption">Hierarchical diagram of the solution space, intentionally blurred for confidentiality. The legend in the bottom right shows the meaning of the block colours.</div>
   </div>
 </div>
 
