@@ -42,7 +42,7 @@ ninja.data = [{
               window.location.href = "/projects/spool/";
             },},{id: "projects-food-production-optimisation",
           title: 'Food Production Optimisation',
-          description: "Optimised an industrial food production line, nearly doubling throughput without increase in footprint.",
+          description: "Optimised an industrial food production line, increasing throughput by 47% without increasing footprint.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/food/";
             },},{id: "projects-novel-cable-splicing-machine",
