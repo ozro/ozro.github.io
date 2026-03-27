@@ -12,12 +12,15 @@ published: true
 ---
 
 # The Problem
+
 The client came to PA Consulting to de-risk a concept for a complex subsystem that essentially needed to push a flexible wire through a tube. The client had two competing concepts and they wanted us to mature the riskier idea so it can be evaluated fairly. The riskier idea involved storing the tube in a spool to save space, with the trade-off of making the tube curved. I worked with another engineer to mature the concept from just an idea to a fully automated proof of principle prototype that could simulate movements based on data recorded in clinical trials.
 
 # The Project
+
 The problem was quite poorly defined. Though the concept involved a spooled tube, there were several paths forward in terms of how the tube was spooled, the tube's profile and material, and actuators responsible for straightening the tube and pushing the wire. Additionally, we didn't fully understand the mechanics of the wire and how it behaved inside the tube. We tackled these problems with many cycles of iterative prototyping, research, and analysis.
 
 ### Wire bending
+
 The main interaction in the system was between the wire and the tube. We needed to understand how a semi-rigid wire constrained in a tube would behave as the system pushed upon it, and one of the main things to consider was the friction experienced by the wire. Through empirical experiments, I soon found out that the wire could curl into a helix within the volume of the support structure, contacting it in many points along its length. Pushing in this state can cause the device to dig into the walls of the tube, making it impossible to advance.
 
 <div class="row justify-content-sm-center">
@@ -73,4 +76,5 @@ The work culminated in a robotic test bed that would prove the viability of the 
 </div>
 
 # Results
+
 The subsystem performed well in the test bed, fully demonstrating all required functionality. The spooled concept proved to be a viable path, though with several key risks, mainly around the creep introduced by long term storage of the tubes. The client ended up moving forward with the other less risky concept, but our work provided great confidence that they made the correct choice.

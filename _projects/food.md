@@ -12,6 +12,7 @@ published: true
 ---
 
 # The Problem
+
 A multinational food and beverage company was experiencing a bottleneck in their production line. One process was much slower than the others, severely limiting throughput. The process was designed almost 20 years ago, with the original team long gone. Initial attempts to speed up the system led to unacceptable defect rates. They came to PA Consulting to find a solution that could be easily retrofitted across multiple production lines in various plants globally. To make things more complicated, the solution must not involve changing the line footprint.
 
 # Gaining Understanding
