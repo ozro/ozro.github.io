@@ -51,14 +51,7 @@ On the project, I initially served as a systems engineer, developing a complex s
 
 Beyond systems engineering I also took on the design of a taping subsystem responsible for applying tape of all kinds: mastic, copper, and PVC. After going through several brainstorms and teardowns of existing technology, I built lots of quick prototypes to develop intuition and deeper understanding.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-6">
-      {% include figure.liquid path="assets/img/albums/splice/splice-tape-prototype.jpg" title="a picture of a taper prototype." class="img-fluid rounded z-depth-1" %}
-      <div class="caption">A quick prototype built from scavenged OTS tape dispenser parts and a laser-cut base.</div>
-    </div>
-</div>
-
-My final design operated in a similar way as the prototype, but incorporated a sprung tape cutter that used existing degrees of freedom on the machine. This avoided adding in additional sensing, actuation and cable management. The subsystem was tested on a manual lathe to simulate the motions available in the machine.
+My final design incorporated a sprung tape cutter that leveraged existing degrees of freedom on the machine. This avoided adding in additional sensing, actuation and cable management. The subsystem was tested on a manual lathe to simulate the motions available in the machine.
 
 ## The Results
 

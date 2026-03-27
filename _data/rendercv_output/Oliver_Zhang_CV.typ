@@ -96,7 +96,7 @@
 
 == Summary
 
-I'm a versatile mechanical engineer with extensive experience building electro-mechanical systems at the heart of Silicon Valley. I love finding elegant solutions that bring innovative ideas to life.
+I'm a versatile mechanical engineer with extensive experience designing and building complex electro-mechanical systems. I thrive in highly collaborative interdisciplinary teams, and I love finding elegant solutions that bring innovative ideas to life.
 
 I'm an Australian citizen.
 
@@ -137,13 +137,15 @@ I'm an Australian citizen.
 
     - Delivering projects across many different industries, from medical robotics to industrial food production.
 
-    - Collaborating with a wide range of clients from tech startups to Fortune 500 companies.
-
-    - Coordinating highly disciplinary teams spread across multiple geographies.
-
-    - Breaking complex problems down into key interactions and applying first principles analysis and modelling.
+    - Brainstorming ideas and developing concepts to find the best path forward.
 
     - Building prototypes at the right fidelity to rapidly drive to the optimal design.
+
+    - Architecting complex systems by breaking them down into key interactions and applying first principles analysis and modelling.
+
+    - Collaborating with a wide range of clients from tech startups to Fortune 500 companies.
+
+    - Coordinating highly interdisciplinary teams spread across multiple geographies.
 
     - Growing the team's capabilities through weekly forums and training sessions, covering topics like analysis, sketching, or programming.
 
@@ -216,7 +218,7 @@ I'm an Australian citizen.
 
     - Interfaced with a diverse team of systems engineers, electrical engineers, software engineers, and industrial designers.
 
-    - Led prototype build effort and ensured successful delivery to client.
+    - Led prototype build effort and ensured successful delivery to client, who said the reliability and performance of the prototype exceeded what they thought was possible in the tight schedule.
 
   ],
 )
