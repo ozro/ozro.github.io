@@ -5,7 +5,7 @@
 #show: rendercv.with(
   name: "Oliver Zhang",
   footer: context { [#emph[Oliver Zhang -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Jan 2026] ],
+  top-note: [ #emph[Last updated in Mar 2026] ],
   locale-catalog-language: "en",
   page-size: "a4",
   page-top-margin: 0.7in,
@@ -77,8 +77,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 1,
-    day: 25,
+    month: 3,
+    day: 31,
   ),
 )
 
@@ -86,7 +86,6 @@
 = Oliver Zhang
 
 #connections(
-  [#connection-with-icon("location-dot")[San Francisco, USA]],
   [#link("mailto:oliverzhang1@yahoo.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[oliverzhang1\@yahoo.com]]],
   [#link("https://oliverzzhang.com/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[oliverzzhang.com]]],
   [#link("https://linkedin.com/in/oliverzzhang", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[oliverzzhang]]],
@@ -145,7 +144,7 @@ I'm an Australian citizen.
 
     - Collaborating with a wide range of clients from tech startups to Fortune 500 companies.
 
-    - Coordinating highly interdisciplinary teams spread across multiple geographies.
+    - Coordinating highly interdisciplinary teams spread across multiple geographies, such as electrical engineers, software engineers, and industrial designers.
 
     - Growing the team's capabilities through weekly forums and training sessions, covering topics like analysis, sketching, or programming.
 
@@ -171,11 +170,9 @@ I'm an Australian citizen.
 
 #strong[Programming:] Python, C\/C++, MATLAB, ROS, Unity
 
-#strong[Mechanical Engineering:] Concept development and prototyping, Analysis of complex systems, DfM, SolidWorks
+#strong[Mechanical Engineering:] Technology development and prototyping, Analysis of complex systems, Electromechanical systems, Design for manufacture, SolidWorks, GD&T, Tolerance stack analysis
 
 #strong[Systems Engineering:] Requirements development, System architecture design, Risk management
-
-#strong[Robotics:] Feedback control, Sensor integration, Motion planning
 
 #strong[Languages:] English (native speaker), Mandarin (native speaker)
 
@@ -204,7 +201,7 @@ I'm an Australian citizen.
 
   ],
   [
-    Aug 2025 – present
+    Aug 2025 – Feb 2026
 
   ],
   main-column-second-row: [
@@ -214,11 +211,13 @@ I'm an Australian citizen.
 
     - Designed complex motion systems in heavily space constrained and finish constrained environment.
 
-    - Balanced stringent industrial design intent with mechanical reliability, while meeting aggressive schedule.
+    - Balanced strict industrial design intent with reliability, while meeting aggressive schedule.
 
-    - Interfaced with a diverse team of systems engineers, electrical engineers, software engineers, and industrial designers.
+    - Interfaced with a diverse team of electrical engineers, software engineers, and industrial designers.
 
-    - Led prototype build effort and ensured successful delivery to client, who said the reliability and performance of the prototype exceeded what they thought was possible in the tight schedule.
+    - Led prototype build effort, coordinating integration of PLC electronics, wiring and cabling of motors, and assembly of complex mechanical subsystems.
+
+    - Final prototype's reliability and quality exceeded expectations and allowed client to fully de-risk intended user experience with company executives.
 
   ],
 )
@@ -235,11 +234,9 @@ I'm an Australian citizen.
   main-column-second-row: [
     #summary[Developing an underground cable splicing machine that automates a complex process typically done by a trained technician.]
 
-    - Built complex set of system requirements drawn from multiple different stakeholders, and managed key risks.
+    - Built complex system requirements drawn from multiple stakeholders, and managed key risks.
 
-    - Designed system architecture to maximise reliability while meeting stringent weight and space constraints.
-
-    - Created system workflows to validate concept of operation.
+    - Designed system architecture to maximise reliability and meet stringent weight and space constraints.
 
     - Developed multiple electromechanical mechanisms that each perform dexterous operations that previously required highly coordinated human actions.
 
@@ -260,95 +257,15 @@ I'm an Australian citizen.
 
     - Implemented and refined controls algorithms to realistically simulate inertia with an electric motor.
 
-    - Built custom dynamometer rig with custom software which simulates human motion and displays metrics in real-time.
+    - Built dynamometer rig with software that simulates human motion and displays metrics in real-time.
 
-    - Led systems engineering effort to manage the integration and testing of the prototype across multiple locations globally.
+    - Developed system requirements, managing traceability and designing test plans.
 
-    - Coordinated a highly cross-functional team with industrial designers, electrical engineers, firmware engineers, and mechanical engineers
+    - Led verification and validation of the prototypes across multiple locations globally.
 
-  ],
-)
+    - Coordinated a highly cross-functional team with industrial designers, electrical engineers, firmware engineers, and mechanical engineers.
 
-#regular-entry(
-  [
-    #strong[Optimising Industrial Food Production]
-
-  ],
-  [
-    Aug 2023 – Nov 2023
-
-  ],
-  main-column-second-row: [
-    #summary[Analysed an industrial food production line to identify root causes of defects and improve throughput without changing line footprint.]
-
-    - Analytically modelled complex dynamic behavior of key components in the production line leveraging high-speed camera footage collected on-site.
-
-    - Developed several concepts for improvement, covering the full solution space.
-
-    - Client implemented designs and achieved 47\% increased throughput without increasing line footprint.
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Optimising Commercial Appliance]
-
-  ],
-  [
-    Mar 2022 – Nov 2022
-
-  ],
-  main-column-second-row: [
-    #summary[Analysed airflow through a commercial appliance to optimise efficiency.]
-
-    - Built thermodynamic simulation of the system based on lab data collected from dozens of sensors.
-
-    - Developed a feedback control system that dynamically adjusts air flow rate for best system performance.
-
-    - Coordinated with firmware engineers and technicians to deploy and test control system.
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Electromechanical Security Product]
-
-  ],
-  [
-    Feb 2022 – Mar 2022
-
-  ],
-  main-column-second-row: [
-    #summary[Rapidly developed concepts and prototypes for addressing a critical issue in a electromechanical security product.]
-
-    - Analysed the existing design, identifying root causes of issues found in the field.
-
-    - Brainstormed ideas and mapped the solution space with a dozen key architectures.
-
-    - Built multiple prototypes that successfully demonstrated five leading concepts.
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Medical Robot Arm]
-
-  ],
-  [
-    Apr 2021 – Feb 2022
-
-  ],
-  main-column-second-row: [
-    #summary[Developed mechanical designs for one of the arms in a medical robot.]
-
-    - Optimised structural components with stringent weight and stiffness requirements.
-
-    - Analysed and designed parts with extremely tight tolerances to ensure assemblability while minimising clearance.
-
-    - Built comprehensive analytical model of a linkage mechanism to predict motion, loads, and deflection.
+    - Delivered high quality prototypes that demonstrated best-in-class user experience and performance, standing up to rigorous testing by world-class athletes.
 
   ],
 )
@@ -392,47 +309,9 @@ I'm an Australian citizen.
 
     - Performed comprehensive Six sigma tolerance stack analysis and implemented GD&T tolerance controls.
 
-  ],
-)
+    - Managed complex assembly with master modelling techniques.
 
-#regular-entry(
-  [
-    #strong[Novel Chemical Treatment Prototype]
-
-  ],
-  [
-    Aug 2019 – Nov 2019
-
-  ],
-  main-column-second-row: [
-    #summary[Developed a prototype machine for temperature-controlled chemical treatment]
-
-    - Developed Peltier cooling channels that maintain the temperature of a chemical being cycled through the system.
-
-    - Designed sound dampening features to reduce the noise impact from vacuum pumps.
-
-    - Built a portable sheet metal enclosure to hold sensitive chemicals and electronics.
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Novel Human Machine Interface (HARMAN International)]
-
-  ],
-  [
-    May 2018 – Aug 2018
-
-  ],
-  main-column-second-row: [
-    #summary[Developed shape-shifting device to support client investigations into novel human-machine interfaces.]
-
-    - Developed concepts through brainstorming, cross-pollination, and down-selection processes.\",
-
-    - Built an integrated electromechanical prototype that was displayed at a major international trade show.\",
-
-    - Built a graphics user interface to prove prototype usability and reliability.\"
+    - Final prototypes secured customers and funding, eventually leading to public listing of client's company.
 
   ],
 )
