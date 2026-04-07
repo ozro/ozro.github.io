@@ -1,10 +1,10 @@
 settings:
-  current_date: "2026-01-25"
+  current_date: "2026-03-31"
   render_command:
     design:
     locale:
-    typst_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.typ
-    pdf_path: "../assets/pdf/NAME_IN_SNAKE_CASE_CV.pdf"
+    typst_path: rendercv_output/NAME_IN_SNAKE_CASE_CV_FULL.typ
+    pdf_path: "../assets/pdf/NAME_IN_SNAKE_CASE_CV_FULL.pdf"
     # markdown_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.md
     # html_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.html
     # png_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.png
@@ -18,7 +18,7 @@ settings:
 cv:
   name: "Oliver Zhang"
   label: "Mechanical Engineer"
-  location: "San Francisco, USA"
+  # location: "San Francisco, USA"
   email: "oliverzhang1@yahoo.com"
   website: "https://oliverzzhang.com/"
   image: ""
@@ -29,7 +29,7 @@ cv:
       username: "ozro"
   sections:
     Summary:
-      - I'm a versatile mechanical engineer with extensive experience building electro-mechanical systems at the heart of Silicon Valley. I thrive in cross-disciplinary teams and love finding elegant solutions that bring innovative ideas to life.
+      - I'm a versatile mechanical engineer with extensive experience designing and building complex electro-mechanical systems. I thrive in highly collaborative interdisciplinary teams, and I love finding elegant solutions that bring innovative ideas to life.
       - I'm an Australian citizen.
     Education:
       - institution: "Carnegie Mellon University"
@@ -52,10 +52,11 @@ cv:
         highlights:
           - "The team's go-to expert for robotics, systems engineering, and analysis."
           - "Delivering projects across many different industries, from medical robotics to industrial food production."
-          - "Collaborating with a wide range of clients from tech startups to Fortune 500 companies."
-          - "Coordinating highly disciplinary teams spread across multiple geographies."
-          - "Breaking complex problems down into key interactions and applying first principles analysis and modelling."
+          - "Brainstorming ideas and developing concepts to find the best path forward."
           - "Building prototypes at the right fidelity to rapidly drive to the optimal design."
+          - "Architecting complex systems by breaking them down into key interactions and applying first principles analysis and modelling."
+          - "Collaborating with a wide range of clients from tech startups to Fortune 500 companies."
+          - "Coordinating highly interdisciplinary teams spread across multiple geographies, such as electrical engineers, software engineers, and industrial designers."
           - "Growing the team's capabilities through weekly forums and training sessions, covering topics like analysis, sketching, or programming."
       - company: "Autel Robotics"
         position: "Project Engineer Intern"
@@ -68,30 +69,29 @@ cv:
       - label: Programming
         details: Python, C/C++, MATLAB, ROS, Unity
       - label: Mechanical Engineering
-        details: Concept development and prototyping, Analysis of complex systems, DfM, SolidWorks
+        details: Technology development and prototyping, Analysis of complex systems, Electromechanical systems, Design for manufacture, SolidWorks, GD&T, Tolerance stack analysis
       - label: Systems Engineering
         details: Requirements development, System architecture design, Risk management
-      - label: Robotics
-        details: Feedback control, Sensor integration, Motion planning
       - label: Languages
         details: English (native speaker), Mandarin (native speaker)
     Patents:
       - name: "[US11058204B2](https://patents.google.com/patent/WO2021087161A1/en)"
         summary: Automated total nail care systems, devices, and methods
         date: "2021-07-13"
-    Select Projects:
+    Projects:
       - name: Novel Electromechanical Machine
         date:
         start_date: 2025-08
-        end_date: present
+        end_date: 2026-02
         location:
         summary: Developing a consumer facing electromechanical machine for a global technology company.
         highlights:
           - Owned design of an Alpha prototype system with 7 actuated degrees of freedom.
           - Designed complex motion systems in heavily space constrained and finish constrained environment.
-          - Balanced stringent industrial design intent with mechanical reliability, while meeting aggressive schedule.
-          - Interfaced with a diverse team of systems engineers, electrical engineers, software engineers, and industrial designers.
-          - Led prototype build effort and ensured successful delivery to client.
+          - Balanced strict industrial design intent with reliability, while meeting aggressive schedule.
+          - Interfaced with a diverse team of electrical engineers, software engineers, and industrial designers.
+          - Led prototype build effort, coordinating integration of PLC electronics, wiring of motors and sensors, and assembly of complex mechanical subsystems.
+          - Final prototype's reliability and quality exceeded expectations and allowed client to fully de-risk intended user experience with company executives.
       - name: "[Novel Cable Splicing Machine](https://oliverzzhang.com/projects/splice/)"
         date:
         start_date: 2024-08
@@ -99,9 +99,8 @@ cv:
         location:
         summary: Developing an underground cable splicing machine that automates a complex process typically done by a trained technician.
         highlights:
-          - Built complex set of system requirements drawn from multiple different stakeholders, and managed key risks.
-          - Designed system architecture to maximise reliability while meeting stringent weight and space constraints.
-          - Created system workflows to validate concept of operation.
+          - Built complex system requirements drawn from multiple stakeholders, and managed key risks.
+          - Designed system architecture to maximise reliability and meet stringent weight and space constraints.
           - Developed multiple electromechanical mechanisms that each perform dexterous operations that previously required highly coordinated human actions.
       - name: "Novel Smart Fitness Machine"
         date:
@@ -110,9 +109,11 @@ cv:
         summary: Developed a novel fitness machine that is controllable wirelessly and can report data from multiple integrated sensors.
         highlights:
           - Implemented and refined controls algorithms to realistically simulate inertia with an electric motor.
-          - Built custom dynamometer rig with custom software which simulates human motion and displays metrics in real-time.
-          - Led systems engineering effort to manage the integration and testing of the prototype across multiple locations globally.
-          - Coordinated a highly cross-functional team with industrial designers, electrical engineers, firmware engineers, and mechanical engineers
+          - Built dynamometer rig with software that simulates human motion and displays metrics in real-time.
+          - Developed system requirements, managing traceability and designing test plans.
+          - Led verification and validation of the prototypes across multiple locations globally.
+          - Coordinated a highly cross-functional team with industrial designers, electrical engineers, firmware engineers, and mechanical engineers.
+          - Delivered high quality prototypes that demonstrated best-in-class user experience and performance, standing up to rigorous testing by world-class athletes.
       - name: "Optimising Industrial Food Production"
         date:
         start_date: 2023-08
@@ -167,6 +168,8 @@ cv:
           - Architected mechanical structure to improve stiffness, assemblability, and serviceability.
           - Converted fibreglass sheet-based design into structural foam/RIM/plastic extrusions.
           - Performed comprehensive Six sigma tolerance stack analysis and implemented GD&T tolerance controls.
+          - Managed complex assembly with master modelling techniques.
+          - Final prototypes secured customers and funding, eventually leading to public listing of client's company.
       - name: "Novel Chemical Treatment Prototype"
         date:
         start_date: 2019-08
@@ -176,6 +179,7 @@ cv:
           - Developed Peltier cooling channels that maintain the temperature of a chemical being cycled through the system.
           - Designed sound dampening features to reduce the noise impact from vacuum pumps.
           - Built a portable sheet metal enclosure to hold sensitive chemicals and electronics.
+          - Final prototype successfully demonstrated the chemical treatment technology, allowing the client to secure funding for further development.
       - name: "Novel Human Machine Interface (HARMAN International)"
         date:
         start_date: 2018-05
@@ -185,6 +189,7 @@ cv:
           - Developed concepts through brainstorming, cross-pollination, and down-selection processes.",
           - Built an integrated electromechanical prototype that was displayed at a major international trade show.",
           - Built a graphics user interface to prove prototype usability and reliability."
+          - Final prototype successfully demonstrated at a major international trade show.
 
 design:
   theme: engineeringclassic

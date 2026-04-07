@@ -179,6 +179,7 @@ cv:
       #     - Developed Peltier cooling channels that maintain the temperature of a chemical being cycled through the system.
       #     - Designed sound dampening features to reduce the noise impact from vacuum pumps.
       #     - Built a portable sheet metal enclosure to hold sensitive chemicals and electronics.
+      #     - Final prototype successfully demonstrated the chemical treatment technology, allowing the client to secure funding for further development.
       # - name: "Novel Human Machine Interface (HARMAN International)"
       #   date:
       #   start_date: 2018-05
@@ -188,6 +189,7 @@ cv:
       #     - Developed concepts through brainstorming, cross-pollination, and down-selection processes.",
       #     - Built an integrated electromechanical prototype that was displayed at a major international trade show.",
       #     - Built a graphics user interface to prove prototype usability and reliability."
+      #     - Final prototype successfully demonstrated at a major international trade show.
 
 design:
   theme: engineeringclassic
