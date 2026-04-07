@@ -142,7 +142,7 @@ I'm an Australian citizen.
 
     - Architecting complex systems by breaking them down into key interactions and applying first principles analysis and modelling.
 
-    - Collaborating with a wide range of clients from tech startups to Fortune 500 companies.
+    - Collaborating with a wide range of clients from agile tech startups to established global leaders.
 
     - Coordinating highly interdisciplinary teams spread across multiple geographies, such as electrical engineers, software engineers, and industrial designers.
 
