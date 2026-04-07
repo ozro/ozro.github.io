@@ -215,7 +215,7 @@ I'm an Australian citizen.
 
     - Interfaced with a diverse team of electrical engineers, software engineers, and industrial designers.
 
-    - Led prototype build effort, coordinating integration of PLC electronics, wiring and cabling of motors, and assembly of complex mechanical subsystems.
+    - Led prototype build effort, coordinating integration of PLC electronics, wiring of motors and sensors, and assembly of complex mechanical subsystems.
 
     - Final prototype's reliability and quality exceeded expectations and allowed client to fully de-risk intended user experience with company executives.
 

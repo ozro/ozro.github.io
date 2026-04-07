@@ -90,7 +90,7 @@ cv:
           - Designed complex motion systems in heavily space constrained and finish constrained environment.
           - Balanced strict industrial design intent with reliability, while meeting aggressive schedule.
           - Interfaced with a diverse team of electrical engineers, software engineers, and industrial designers.
-          - Led prototype build effort, coordinating integration of PLC electronics, wiring and cabling of motors, and assembly of complex mechanical subsystems.
+          - Led prototype build effort, coordinating integration of PLC electronics, wiring of motors and sensors, and assembly of complex mechanical subsystems.
           - Final prototype's reliability and quality exceeded expectations and allowed client to fully de-risk intended user experience with company executives.
       - name: "[Novel Cable Splicing Machine](https://oliverzzhang.com/projects/splice/)"
         date:
