@@ -148,8 +148,6 @@ I'm an Australian citizen.
 
     - Growing the team's capabilities through weekly forums and training sessions, covering topics like analysis, sketching, or programming.
 
-    - The team's go-to expert for robotics, systems engineering, and analysis.
-
   ],
 )
 
@@ -163,7 +161,7 @@ I'm an Australian citizen.
 
   ],
   main-column-second-row: [
-    #summary[Implemented tracking and gesture recognition algorithms for embedded execution on a quadcopter.]
+    #summary[Worked in a team of three to implement tracking and gesture recognition systems for a quadrotor. Developed programs using MATLAB and cross compiled using C\/C++ for embedded execution.]
 
   ],
 )

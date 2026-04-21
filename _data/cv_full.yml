@@ -58,13 +58,12 @@ cv:
           - "Architecting complex systems by breaking them down into key interactions and applying first principles analysis and modelling."
           - "Coordinating highly interdisciplinary teams spread across multiple geographies, with electrical engineers, software engineers, and industrial designers."
           - "Growing the team's capabilities through weekly forums and training sessions, covering topics like analysis, sketching, or programming."
-          - "The team's go-to expert for robotics, systems engineering, and analysis."
       - company: "Autel Robotics"
         position: "Project Engineer Intern"
         location: "Pittsburgh, USA"
         start_date: 2017-05
         end_date: 2017-08
-        summary: Implemented tracking and gesture recognition algorithms for embedded execution on a quadcopter.
+        summary: Worked in a team of three to implement tracking and gesture recognition systems for a quadrotor. Developed programs using MATLAB and cross compiled using C/C++ for embedded execution.
         highlights: []
     Skills:
       - label: Programming
