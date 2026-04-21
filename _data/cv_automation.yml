@@ -3,8 +3,8 @@ settings:
   render_command:
     design:
     locale:
-    typst_path: rendercv_output/NAME_IN_SNAKE_CASE_CV_FULL.typ
-    pdf_path: "../assets/pdf/NAME_IN_SNAKE_CASE_CV_FULL.pdf"
+    typst_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: "../assets/pdf/NAME_IN_SNAKE_CASE_CV_automation.pdf"
     # markdown_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.md
     # html_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.html
     # png_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.png
@@ -78,7 +78,7 @@ cv:
       - name: "[US11058204B2](https://patents.google.com/patent/WO2021087161A1/en)"
         summary: Automated total nail care systems, devices, and methods
         date: "2021-07-13"
-    Projects:
+    Select Projects:
       - name: Novel Electromechanical Machine
         date:
         start_date: 2025-08
@@ -88,9 +88,8 @@ cv:
         highlights:
           - Owned design of an Alpha prototype system with 7 actuated degrees of freedom.
           - Designed complex motion systems in heavily space constrained and finish constrained environment.
-          - Balanced strict industrial design intent with reliability, while meeting aggressive schedule.
           - Interfaced with a diverse team of electrical engineers, software engineers, and industrial designers.
-          - Led prototype build effort, coordinating integration of PLC electronics, wiring of motors and sensors, and assembly of complex mechanical subsystems.
+          - Led prototype build effort, coordinating integration of Beckhoff PLC electronics, wiring of motors and sensors, and assembly of complex mechanical subsystems.
           - Final prototype's reliability and quality exceeded expectations and allowed client to fully de-risk intended user experience with company executives.
       - name: "[Novel Cable Splicing Machine](https://oliverzzhang.com/projects/splice/)"
         date:
@@ -100,6 +99,7 @@ cv:
         summary: Developing an underground cable splicing machine that automates a complex process typically done by a trained technician.
         highlights:
           - Built complex system requirements drawn from multiple stakeholders, and managed key risks.
+          - Optimised automation workflow to improve cycle time and reduce manual intervention.
           - Designed system architecture to maximise reliability and meet stringent weight and space constraints.
           - Developed multiple electromechanical mechanisms that each perform dexterous operations that previously required highly coordinated human actions.
       - name: "Novel Smart Fitness Machine"
@@ -123,34 +123,34 @@ cv:
           - Analytically modelled complex dynamic behavior of key components in the production line leveraging high-speed camera footage collected on-site.
           - Developed several concepts for improvement, covering the full solution space.
           - Client implemented designs and achieved 47% increased throughput without increasing line footprint.
-      - name: "Optimising Commercial Appliance"
-        date:
-        start_date: 2022-03
-        end_date: 2022-11
-        summary: Analysed airflow through a commercial appliance to optimise efficiency.
-        highlights:
-          - Built thermodynamic simulation of the system based on lab data collected from dozens of sensors.
-          - Developed a feedback control system that dynamically adjusts air flow rate for best system performance.
-          - Coordinated with firmware engineers and technicians to deploy and test control system.
-          - New control methodology greatly improved efficiency and could be deployed to field systems without hardware modification.
-      - name: "Electromechanical Security Product"
-        date:
-        start_date: 2022-02
-        end_date: 2022-03
-        summary: Rapidly developed concepts and prototypes for addressing a critical issue in a electromechanical security product.
-        highlights:
-          - Analysed the existing design, identifying root causes of issues found in the field.
-          - Brainstormed ideas and mapped the solution space with a dozen key architectures.
-          - In a week, rapidly built multiple prototypes that successfully demonstrated five leading concepts.
-      - name: "Medical Robot Arm"
-        date:
-        start_date: 2021-04
-        end_date: 2022-02
-        summary: Developed mechanical designs for one of the arms in a medical robot.
-        highlights:
-          - Optimised structural components with stringent weight and stiffness requirements.
-          - Analysed and designed parts with extremely tight tolerances to ensure assemblability while minimising clearance.
-          - Built comprehensive analytical model of a linkage mechanism to predict motion, loads, and deflection.
+      # - name: "Optimising Commercial Appliance"
+      #   date:
+      #   start_date: 2022-03
+      #   end_date: 2022-11
+      #   summary: Analysed airflow through a commercial appliance to optimise efficiency.
+      #   highlights:
+      #     - Built thermodynamic simulation of the system based on lab data collected from dozens of sensors.
+      #     - Developed a feedback control system that dynamically adjusts air flow rate for best system performance.
+      #     - Coordinated with firmware engineers and technicians to deploy and test control system.
+      #     - New control methodology greatly improved efficiency and could be deployed to field systems without hardware modification.
+      # - name: "Electromechanical Security Product"
+      #   date:
+      #   start_date: 2022-02
+      #   end_date: 2022-03
+      #   summary: Rapidly developed concepts and prototypes for addressing a critical issue in a electromechanical security product.
+      #   highlights:
+      #     - Analysed the existing design, identifying root causes of issues found in the field.
+      #     - Brainstormed ideas and mapped the solution space with a dozen key architectures.
+      #     - Built multiple prototypes that successfully demonstrated five leading concepts.
+      # - name: "Medical Robot Arm"
+      #   date:
+      #   start_date: 2021-04
+      #   end_date: 2022-02
+      #   summary: Developed mechanical designs for one of the arms in a medical robot.
+      #   highlights:
+      #     - Optimised structural components with stringent weight and stiffness requirements.
+      #     - Analysed and designed parts with extremely tight tolerances to ensure assemblability while minimising clearance.
+      #     - Built comprehensive analytical model of a linkage mechanism to predict motion, loads, and deflection.
       - name: "[Novel Subsystem Prototype](https://oliverzzhang.com/projects/spool/)"
         date:
         start_date: 2020-09
@@ -160,37 +160,37 @@ cv:
           - Developed a complex analytical model of the behavior of elastic materials fed from a spool.
           - Experimented with medical grade extruded tube materials, coatings, and cross-sectional profiles to generate desired properties such as bending stiffness, resilience, creep, and friction.
           - Designed and built a robotic system that process various sensor inputs to drive a custom control algorithm. The system uses clinical trial data to simulate real user motion, allowing high fidelity testing of expected behavior.
-      - name: "[Evolv Express® Threat Detection System](https://oliverzzhang.com/projects/evolv-express/)"
-        date:
-        start_date: 2019-11
-        end_date: 2020-09
-        summary: Developed manufacturable prototype in support of client electronics, addressing challenging structural, materials, mobility, and environmental requirements.
-        highlights:
-          - Architected mechanical structure to improve stiffness, assemblability, and serviceability.
-          - Converted fibreglass sheet-based design into structural foam/RIM/plastic extrusions.
-          - Performed comprehensive Six sigma tolerance stack analysis and implemented GD&T tolerance controls.
-          - Managed complex assembly with master modelling techniques.
-          - Final prototypes secured customers and funding, eventually leading to public listing of client's company.
-      - name: "Novel Chemical Treatment Prototype"
-        date:
-        start_date: 2019-08
-        end_date: 2019-11
-        summary: Developed a prototype machine for temperature-controlled chemical treatment
-        highlights:
-          - Developed Peltier cooling channels that maintain the temperature of a chemical being cycled through the system.
-          - Designed sound dampening features to reduce the noise impact from vacuum pumps.
-          - Built a portable sheet metal enclosure to hold sensitive chemicals and electronics.
-          - Final prototype successfully demonstrated the chemical treatment technology, allowing the client to secure funding for further development.
-      - name: "Novel Human Machine Interface (HARMAN International)"
-        date:
-        start_date: 2018-05
-        end_date: 2018-08
-        summary: Developed shape-shifting device to support client investigations into novel human-machine interfaces.
-        highlights:
-          - Developed concepts through brainstorming, cross-pollination, and down-selection processes.",
-          - Built an integrated electromechanical prototype that was displayed at a major international trade show.",
-          - Built a graphics user interface to prove prototype usability and reliability."
-          - Final prototype successfully demonstrated at a major international trade show.
+      # - name: "[Evolv Express® Threat Detection System](https://oliverzzhang.com/projects/evolv-express/)"
+      #   date:
+      #   start_date: 2019-11
+      #   end_date: 2020-09
+      #   summary: Developed manufacturable prototype in support of client electronics, addressing challenging structural, materials, mobility, and environmental requirements.
+      #   highlights:
+      #     - Architected mechanical structure to improve stiffness, assemblability, and serviceability.
+      #     - Converted fibreglass sheet-based design into structural foam/RIM/plastic extrusions.
+      #     - Performed comprehensive Six sigma tolerance stack analysis and implemented GD&T tolerance controls.
+      #     - Managed complex assembly with master modelling techniques.
+      #     - Final prototypes secured customers and funding, eventually leading to public listing of client's company.
+      # - name: "Novel Chemical Treatment Prototype"
+      #   date:
+      #   start_date: 2019-08
+      #   end_date: 2019-11
+      #   summary: Developed a prototype machine for temperature-controlled chemical treatment
+      #   highlights:
+      #     - Developed Peltier cooling channels that maintain the temperature of a chemical being cycled through the system.
+      #     - Designed sound dampening features to reduce the noise impact from vacuum pumps.
+      #     - Built a portable sheet metal enclosure to hold sensitive chemicals and electronics.
+      #     - Final prototype successfully demonstrated the chemical treatment technology, allowing the client to secure funding for further development.
+      # - name: "Novel Human Machine Interface (HARMAN International)"
+      #   date:
+      #   start_date: 2018-05
+      #   end_date: 2018-08
+      #   summary: Developed shape-shifting device to support client investigations into novel human-machine interfaces.
+      #   highlights:
+      #     - Developed concepts through brainstorming, cross-pollination, and down-selection processes.",
+      #     - Built an integrated electromechanical prototype that was displayed at a major international trade show.",
+      #     - Built a graphics user interface to prove prototype usability and reliability."
+      #     - Final prototype successfully demonstrated at a major international trade show.
 
 design:
   theme: engineeringclassic

@@ -211,11 +211,9 @@ I'm an Australian citizen.
 
     - Designed complex motion systems in heavily space constrained and finish constrained environment.
 
-    - Balanced strict industrial design intent with reliability, while meeting aggressive schedule.
-
     - Interfaced with a diverse team of electrical engineers, software engineers, and industrial designers.
 
-    - Led prototype build effort, coordinating integration of PLC electronics, wiring of motors and sensors, and assembly of complex mechanical subsystems.
+    - Led prototype build effort, coordinating integration of Beckhoff PLC electronics, wiring of motors and sensors, and assembly of complex mechanical subsystems.
 
     - Final prototype's reliability and quality exceeded expectations and allowed client to fully de-risk intended user experience with company executives.
 
@@ -235,6 +233,8 @@ I'm an Australian citizen.
     #summary[Developing an underground cable splicing machine that automates a complex process typically done by a trained technician.]
 
     - Built complex system requirements drawn from multiple stakeholders, and managed key risks.
+
+    - Optimised automation workflow to improve cycle time and reduce manual intervention.
 
     - Designed system architecture to maximise reliability and meet stringent weight and space constraints.
 
@@ -272,6 +272,27 @@ I'm an Australian citizen.
 
 #regular-entry(
   [
+    #strong[#link("https://oliverzzhang.com/projects/food/")[Optimising Industrial Food Production]]
+
+  ],
+  [
+    Aug 2023 – Nov 2023
+
+  ],
+  main-column-second-row: [
+    #summary[Analysed an industrial food production line to identify root causes of defects and improve throughput without changing line footprint.]
+
+    - Analytically modelled complex dynamic behavior of key components in the production line leveraging high-speed camera footage collected on-site.
+
+    - Developed several concepts for improvement, covering the full solution space.
+
+    - Client implemented designs and achieved 47\% increased throughput without increasing line footprint.
+
+  ],
+)
+
+#regular-entry(
+  [
     #strong[#link("https://oliverzzhang.com/projects/spool/")[Novel Subsystem Prototype]]
 
   ],
@@ -287,31 +308,6 @@ I'm an Australian citizen.
     - Experimented with medical grade extruded tube materials, coatings, and cross-sectional profiles to generate desired properties such as bending stiffness, resilience, creep, and friction.
 
     - Designed and built a robotic system that process various sensor inputs to drive a custom control algorithm. The system uses clinical trial data to simulate real user motion, allowing high fidelity testing of expected behavior.
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[#link("https://oliverzzhang.com/projects/evolv-express/")[Evolv Express® Threat Detection System]]
-
-  ],
-  [
-    Nov 2019 – Sept 2020
-
-  ],
-  main-column-second-row: [
-    #summary[Developed manufacturable prototype in support of client electronics, addressing challenging structural, materials, mobility, and environmental requirements.]
-
-    - Architected mechanical structure to improve stiffness, assemblability, and serviceability.
-
-    - Converted fibreglass sheet-based design into structural foam\/RIM\/plastic extrusions.
-
-    - Performed comprehensive Six sigma tolerance stack analysis and implemented GD&T tolerance controls.
-
-    - Managed complex assembly with master modelling techniques.
-
-    - Final prototypes secured customers and funding, eventually leading to public listing of client's company.
 
   ],
 )
