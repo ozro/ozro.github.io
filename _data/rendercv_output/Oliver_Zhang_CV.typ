@@ -132,9 +132,11 @@ I'm an Australian citizen.
   main-column-second-row: [
     #summary[Collaborating with diverse engineers and designers to find the path through complex challenges and turn inventive ideas into innovative products.]
 
-    - The team's go-to expert for robotics, systems engineering, and analysis.
-
     - Delivering projects across many different industries, from medical robotics to industrial food production.
+
+    - Working through the entire product development process, from concept to manufacturing.
+
+    - Collaborating with a wide range of clients from agile tech startups to established global leaders.
 
     - Brainstorming ideas and developing concepts to find the best path forward.
 
@@ -142,11 +144,11 @@ I'm an Australian citizen.
 
     - Architecting complex systems by breaking them down into key interactions and applying first principles analysis and modelling.
 
-    - Collaborating with a wide range of clients from agile tech startups to established global leaders.
-
-    - Coordinating highly interdisciplinary teams spread across multiple geographies, such as electrical engineers, software engineers, and industrial designers.
+    - Coordinating highly interdisciplinary teams spread across multiple geographies, with electrical engineers, software engineers, and industrial designers.
 
     - Growing the team's capabilities through weekly forums and training sessions, covering topics like analysis, sketching, or programming.
+
+    - The team's go-to expert for robotics, systems engineering, and analysis.
 
   ],
 )
@@ -193,7 +195,7 @@ I'm an Australian citizen.
   ],
 )
 
-== Projects
+== Select Projects
 
 #regular-entry(
   [

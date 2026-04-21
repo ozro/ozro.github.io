@@ -50,14 +50,15 @@ cv:
         end_date: "present"
         summary: Collaborating with diverse engineers and designers to find the path through complex challenges and turn inventive ideas into innovative products.
         highlights:
-          - "The team's go-to expert for robotics, systems engineering, and analysis."
           - "Delivering projects across many different industries, from medical robotics to industrial food production."
+          - "Working through the entire product development process, from concept to manufacturing."
+          - "Collaborating with a wide range of clients from agile tech startups to established global leaders."
           - "Brainstorming ideas and developing concepts to find the best path forward."
           - "Building prototypes at the right fidelity to rapidly drive to the optimal design."
           - "Architecting complex systems by breaking them down into key interactions and applying first principles analysis and modelling."
-          - "Collaborating with a wide range of clients from agile tech startups to established global leaders."
-          - "Coordinating highly interdisciplinary teams spread across multiple geographies, such as electrical engineers, software engineers, and industrial designers."
+          - "Coordinating highly interdisciplinary teams spread across multiple geographies, with electrical engineers, software engineers, and industrial designers."
           - "Growing the team's capabilities through weekly forums and training sessions, covering topics like analysis, sketching, or programming."
+          - "The team's go-to expert for robotics, systems engineering, and analysis."
       - company: "Autel Robotics"
         position: "Project Engineer Intern"
         location: "Pittsburgh, USA"
@@ -78,7 +79,7 @@ cv:
       - name: "[US11058204B2](https://patents.google.com/patent/WO2021087161A1/en)"
         summary: Automated total nail care systems, devices, and methods
         date: "2021-07-13"
-    Projects:
+    Select Projects:
       - name: Novel Electromechanical Machine
         date:
         start_date: 2025-08
@@ -132,6 +133,7 @@ cv:
       #     - Built thermodynamic simulation of the system based on lab data collected from dozens of sensors.
       #     - Developed a feedback control system that dynamically adjusts air flow rate for best system performance.
       #     - Coordinated with firmware engineers and technicians to deploy and test control system.
+      #     - New control methodology greatly improved efficiency and could be deployed to field systems without hardware modification.
       # - name: "Electromechanical Security Product"
       #   date:
       #   start_date: 2022-02
